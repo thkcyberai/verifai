@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "allowJs": true,
     "jsx": "react-native",
     "noEmit": true,
@@ -13,5 +15,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true
-  }
+  },
+  "extends": "expo/tsconfig.base"
 }

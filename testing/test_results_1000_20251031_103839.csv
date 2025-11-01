@@ -1,0 +1,361 @@
+test_id,category,difficulty,statement,expected_verdict,actual_verdict,confidence,match,llm_score,evidence_score,raw_score,reasoning
+1,Factual_Easy,Easy,Water boils at 100 degrees Celsius at sea level,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Basic scientific fact
+2,Factual_Easy,Easy,Is it true that Water boils at 100 degrees Celsius at sea level?,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Basic scientific fact
+3,Factual_Easy,Easy,Paris is the capital of France,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Well-known geographic fact
+4,Factual_Easy,Easy,Is it true that Paris is the capital of France?,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Well-known geographic fact
+5,Factual_Easy,Easy,The Earth is flat,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Debunked conspiracy theory
+6,Factual_Easy,Easy,Is it false that The Earth is flat?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Debunked conspiracy theory
+7,Factual_Easy,Easy,The sun rises in the east,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Observable daily phenomenon
+8,Factual_Easy,Easy,Is it true that The sun rises in the east?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Observable daily phenomenon
+9,Factual_Easy,Easy,Gold is heavier than water,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Basic material property
+10,Factual_Easy,Easy,Is it true that Gold is heavier than water?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Basic material property
+11,Factual_Easy,Easy,Humans need oxygen to survive,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Biological fact
+12,Factual_Easy,Easy,Is it true that Humans need oxygen to survive?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Biological fact
+13,Factual_Easy,Easy,The moon is made of cheese,FALSE,FALSE,95.0%,YES,0.00,0.70,0.445,Common children's myth
+14,Factual_Easy,Easy,Is it false that The moon is made of cheese?,FALSE,FALSE,95.0%,YES,0.00,0.70,0.445,Common children's myth
+15,Factual_Easy,Easy,Fire is cold,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Contradicts basic physics
+16,Factual_Easy,Easy,Is it false that Fire is cold?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Contradicts basic physics
+17,Factual_Easy,Easy,Ice melts at room temperature,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Observable phenomenon
+18,Factual_Easy,Easy,Is it true that Ice melts at room temperature?,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Observable phenomenon
+19,Factual_Easy,Easy,Plants perform photosynthesis,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Basic biology
+20,Factual_Easy,Easy,Is it true that Plants perform photosynthesis?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Basic biology
+21,Factual_Easy,Easy,The Pacific Ocean is the largest ocean,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Geographic fact
+22,Factual_Easy,Easy,Is it true that The Pacific Ocean is the largest ocean?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Geographic fact
+23,Factual_Easy,Easy,Mt Everest is the tallest mountain on Earth,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Well-documented fact
+24,Factual_Easy,Easy,Is it true that Mt Everest is the tallest mountain on Earth?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Well-documented fact
+25,Factual_Easy,Easy,Diamonds are made of carbon,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Scientific fact
+26,Factual_Easy,Easy,Is it true that Diamonds are made of carbon?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Scientific fact
+27,Factual_Easy,Easy,The human body has four lungs,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Incorrect anatomy
+28,Factual_Easy,Easy,Is it false that The human body has four lungs?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Incorrect anatomy
+29,Factual_Easy,Easy,Light travels faster than sound,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Physics principle
+30,Factual_Easy,Easy,Is it true that Light travels faster than sound?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Physics principle
+31,Factual_Easy,Easy,Antarctica is a continent,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Geographic classification
+32,Factual_Easy,Easy,Is it true that Antarctica is a continent?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Geographic classification
+33,Factual_Easy,Easy,Spiders have six legs,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Spiders have 8 legs
+34,Factual_Easy,Easy,Is it false that Spiders have six legs?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Spiders have 8 legs
+35,Factual_Easy,Easy,The Great Pyramid is in Egypt,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Historic location
+36,Factual_Easy,Easy,Is it true that The Great Pyramid is in Egypt?,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Historic location
+37,Factual_Easy,Easy,Dogs can fly naturally,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Obvious impossibility
+38,Factual_Easy,Easy,Is it false that Dogs can fly naturally?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Obvious impossibility
+39,Factual_Easy,Easy,Seasons are caused by Earth's tilt,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Astronomical fact
+40,Factual_Easy,Easy,Is it true that Seasons are caused by Earth's tilt?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Astronomical fact
+41,Factual_Easy,Easy,Rome is the capital of Italy,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Current capital
+42,Factual_Easy,Easy,Is it true that Rome is the capital of Italy?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Current capital
+43,Factual_Easy,Easy,Sharks are mammals,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Sharks are fish
+44,Factual_Easy,Easy,Is it false that Sharks are mammals?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Sharks are fish
+45,Factual_Easy,Easy,The Amazon is the longest river,FALSE,FALSE,90.0%,YES,0.30,0.70,0.555,Nile is longest
+46,Factual_Easy,Easy,Is it false that The Amazon is the longest river?,FALSE,FALSE,90.0%,YES,0.30,0.85,0.650,Nile is longest
+47,Factual_Easy,Easy,Gravity pulls objects downward,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Physics law
+48,Factual_Easy,Easy,Is it true that Gravity pulls objects downward?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Physics law
+49,Factual_Easy,Easy,Penguins live at the North Pole,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Penguins are in Antarctica
+50,Factual_Easy,Easy,Is it false that Penguins live at the North Pole?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Penguins are in Antarctica
+51,Factual_Easy,Easy,Blood is blue inside the body,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Common misconception
+52,Factual_Easy,Easy,Is it false that Blood is blue inside the body?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Common misconception
+53,Factual_Easy,Easy,A year has 365 days,TRUE,TRUE,90.0%,YES,0.70,0.60,0.636,Calendar fact
+54,Factual_Easy,Easy,Is it true that A year has 365 days?,TRUE,TRUE,90.0%,YES,0.70,0.60,0.636,Calendar fact
+55,Factual_Easy,Easy,Jupiter is the largest planet in our solar system,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Astronomical fact
+56,Factual_Easy,Easy,Is it true that Jupiter is the largest planet in our solar system?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Astronomical fact
+57,Factual_Easy,Easy,Humans have five senses,TRUE,FALSE,90.0%,NO,0.30,0.50,0.427,Traditional classification
+58,Factual_Easy,Easy,Is it true that Humans have five senses?,TRUE,FALSE,90.0%,NO,0.30,0.60,0.491,Traditional classification
+59,Factual_Easy,Easy,The speed of light is constant,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Physics principle
+60,Factual_Easy,Easy,Is it true that The speed of light is constant?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Physics principle
+61,Scientific,Medium,Vaccines cause autism,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Thoroughly debunked
+62,Scientific,Medium,Is it false that Vaccines cause autism?,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,Thoroughly debunked
+63,Scientific,Medium,Climate change is caused primarily by human activity,TRUE,TRUE,90.0%,YES,1.00,0.50,0.682,Scientific consensus
+64,Scientific,Medium,Is it true that Climate change is caused primarily by human activity?,TRUE,TRUE,90.0%,YES,1.00,0.60,0.745,Scientific consensus
+65,Scientific,Medium,Evolution is just a theory with no evidence,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Misunderstanding of science
+66,Scientific,Medium,Is it false that Evolution is just a theory with no evidence?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Misunderstanding of science
+67,Scientific,Medium,The Earth is approximately 4.5 billion years old,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Radiometric dating
+68,Scientific,Medium,Is it true that The Earth is approximately 4.5 billion years old?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Radiometric dating
+69,Scientific,Medium,Humans only use 10% of their brains,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,Neurological myth
+70,Scientific,Medium,Is it false that Humans only use 10% of their brains?,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,Neurological myth
+71,Scientific,Medium,Antibiotics are effective against viruses,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Only work on bacteria
+72,Scientific,Medium,Is it false that Antibiotics are effective against viruses?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Only work on bacteria
+73,Scientific,Medium,GMO foods are dangerous to human health,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,No scientific evidence
+74,Scientific,Medium,Is it false that GMO foods are dangerous to human health?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,No scientific evidence
+75,Scientific,Medium,Organic foods are more nutritious than conventional,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Evidence is mixed
+76,Scientific,Medium,What do you think about the claim that Organic foods are more nutritious than conventional?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Evidence is mixed
+77,Scientific,Medium,Global warming stopped in 1998,FALSE,FALSE,90.0%,YES,0.00,0.50,0.318,Cherry-picked data
+78,Scientific,Medium,Is it false that Global warming stopped in 1998?,FALSE,FALSE,90.0%,YES,0.00,0.50,0.318,Cherry-picked data
+79,Scientific,Medium,The Earth's magnetic field is about to flip,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Overdue but timing unknown
+80,Scientific,Medium,What do you think about the claim that The Earth's magnetic field is about to flip?,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.40,0.436,Overdue but timing unknown
+81,Scientific,Medium,DNA is shaped like a double helix,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Watson-Crick model
+82,Scientific,Medium,Is it true that DNA is shaped like a double helix?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Watson-Crick model
+83,Scientific,Medium,Chemicals are dangerous and should be avoided,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Everything is chemicals
+84,Scientific,Medium,Is it false that Chemicals are dangerous and should be avoided?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Everything is chemicals
+85,Scientific,Medium,Natural is always better than synthetic,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Naturalistic fallacy
+86,Scientific,Medium,Is it false that Natural is always better than synthetic?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Naturalistic fallacy
+87,Scientific,Medium,Cracking knuckles causes arthritis,FALSE,FALSE,90.0%,YES,0.30,0.30,0.300,No scientific link
+88,Scientific,Medium,Is it false that Cracking knuckles causes arthritis?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,No scientific link
+89,Scientific,Medium,We lose most heat through our heads,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Myth from military study
+90,Scientific,Medium,Is it false that We lose most heat through our heads?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Myth from military study
+91,Scientific,Medium,Goldfish have a 3-second memory,FALSE,FALSE,90.0%,YES,0.00,0.50,0.318,Can remember for months
+92,Scientific,Medium,Is it false that Goldfish have a 3-second memory?,FALSE,FALSE,90.0%,YES,0.00,0.30,0.191,Can remember for months
+93,Scientific,Medium,Sugar makes children hyperactive,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,No consistent evidence
+94,Scientific,Medium,Is it false that Sugar makes children hyperactive?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,No consistent evidence
+95,Scientific,Medium,Reading in dim light damages eyesight,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,"Causes strain, not damage"
+96,Scientific,Medium,Is it false that Reading in dim light damages eyesight?,FALSE,UNVERIFIED,47.3%,NO,0.30,0.50,0.427,"Causes strain, not damage"
+97,Scientific,Medium,Shaving makes hair grow back thicker,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Optical illusion
+98,Scientific,Medium,Is it false that Shaving makes hair grow back thicker?,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,Optical illusion
+99,Scientific,Medium,You need to drink 8 glasses of water daily,FALSE,UNVERIFIED,40.0%,NO,0.50,0.50,0.500,No scientific basis for exact amount
+100,Scientific,Medium,Is it false that You need to drink 8 glasses of water daily?,FALSE,UNVERIFIED,52.7%,NO,0.50,0.30,0.373,No scientific basis for exact amount
+101,Scientific,Medium,Microwaves cause cancer,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Non-ionizing radiation
+102,Scientific,Medium,Is it false that Microwaves cause cancer?,FALSE,FALSE,90.0%,YES,0.00,0.40,0.255,Non-ionizing radiation
+103,Scientific,Medium,Eating carrots improves night vision,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,WWII propaganda
+104,Scientific,Medium,Is it false that Eating carrots improves night vision?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,WWII propaganda
+105,Scientific,Medium,The tongue has taste zones,FALSE,FALSE,90.0%,YES,0.30,0.30,0.300,Debunked taste map
+106,Scientific,Medium,Is it false that The tongue has taste zones?,FALSE,FALSE,90.0%,YES,0.30,0.20,0.236,Debunked taste map
+107,Scientific,Medium,Lightning never strikes the same place twice,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Can strike repeatedly
+108,Scientific,Medium,Is it false that Lightning never strikes the same place twice?,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,Can strike repeatedly
+109,Scientific,Medium,Bats are blind,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,They can see
+110,Scientific,Medium,Is it false that Bats are blind?,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,They can see
+111,Scientific,Medium,Bulls are enraged by the color red,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Bulls are colorblind to red
+112,Scientific,Medium,Is it false that Bulls are enraged by the color red?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Bulls are colorblind to red
+113,Scientific,Medium,Daddy longlegs are the most venomous spiders,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Not even spiders
+114,Scientific,Medium,Is it false that Daddy longlegs are the most venomous spiders?,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,Not even spiders
+115,Scientific,Medium,Coffee stunts your growth,FALSE,FALSE,90.0%,YES,0.00,0.40,0.255,No evidence
+116,Scientific,Medium,Is it false that Coffee stunts your growth?,FALSE,FALSE,90.0%,YES,0.00,0.50,0.318,No evidence
+117,Scientific,Medium,Ostriches bury their heads in sand,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,They dig nests
+118,Scientific,Medium,Is it false that Ostriches bury their heads in sand?,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,They dig nests
+119,Scientific,Medium,Humans evolved from chimpanzees,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,"Common ancestor, not from"
+120,Scientific,Medium,Is it false that Humans evolved from chimpanzees?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,"Common ancestor, not from"
+121,Historical,Medium,The Titanic sank in 1912,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,"April 15, 1912"
+122,Historical,Medium,Is it true that The Titanic sank in 1912?,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,"April 15, 1912"
+123,Historical,Medium,World War II ended in 1945,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,"September 2, 1945"
+124,Historical,Medium,Is it true that World War II ended in 1945?,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,"September 2, 1945"
+125,Historical,Medium,Christopher Columbus discovered America in 1492,FALSE,FALSE,90.0%,YES,0.30,0.70,0.555,Indigenous peoples were there
+126,Historical,Medium,Is it false that Christopher Columbus discovered America in 1492?,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Indigenous peoples were there
+127,Historical,Medium,Napoleon Bonaparte was extremely short,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Average height for his time
+128,Historical,Medium,Is it false that Napoleon Bonaparte was extremely short?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Average height for his time
+129,Historical,Medium,The Great Wall of China is visible from space,FALSE,FALSE,90.0%,YES,0.30,0.30,0.300,Too narrow to see unaided
+130,Historical,Medium,Is it false that The Great Wall of China is visible from space?,FALSE,FALSE,90.0%,YES,0.30,0.20,0.236,Too narrow to see unaided
+131,Historical,Medium,Vikings wore horned helmets,FALSE,FALSE,90.0%,YES,0.00,0.40,0.255,Romantic myth
+132,Historical,Medium,Is it false that Vikings wore horned helmets?,FALSE,FALSE,90.0%,YES,0.00,0.40,0.255,Romantic myth
+133,Historical,Medium,George Washington had wooden teeth,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,"Made of ivory, bone, lead"
+134,Historical,Medium,Is it false that George Washington had wooden teeth?,FALSE,FALSE,90.0%,YES,0.30,0.30,0.300,"Made of ivory, bone, lead"
+135,Historical,Medium,Humans and dinosaurs coexisted,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,65 million years apart
+136,Historical,Medium,Is it false that Humans and dinosaurs coexisted?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,65 million years apart
+137,Historical,Medium,Cleopatra was Egyptian,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Greek Macedonian descent
+138,Historical,Medium,Is it false that Cleopatra was Egyptian?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Greek Macedonian descent
+139,Historical,Medium,The Middle Ages were a period of no progress,FALSE,FALSE,90.0%,YES,0.00,0.50,0.318,Many innovations occurred
+140,Historical,Medium,Is it false that The Middle Ages were a period of no progress?,FALSE,FALSE,90.0%,YES,0.00,0.40,0.255,Many innovations occurred
+141,Historical,Medium,Nero fiddled while Rome burned,FALSE,UNVERIFIED,40.9%,NO,0.30,0.60,0.491,Fiddles didn't exist then
+142,Historical,Medium,Is it false that Nero fiddled while Rome burned?,FALSE,UNVERIFIED,40.9%,NO,0.30,0.60,0.491,Fiddles didn't exist then
+143,Historical,Medium,Thomas Edison invented the light bulb,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Improved existing design
+144,Historical,Medium,Is it false that Thomas Edison invented the light bulb?,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Improved existing design
+145,Historical,Medium,Einstein failed mathematics in school,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Excelled at math
+146,Historical,Medium,Is it false that Einstein failed mathematics in school?,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,Excelled at math
+147,Historical,Medium,The American Civil War was fought over slavery,TRUE,TRUE,90.0%,YES,1.00,0.60,0.745,Primary cause
+148,Historical,Medium,Is it true that The American Civil War was fought over slavery?,TRUE,TRUE,90.0%,YES,1.00,0.60,0.745,Primary cause
+149,Historical,Medium,Columbus thought the Earth was flat,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,Educated people knew it was round
+150,Historical,Medium,Is it false that Columbus thought the Earth was flat?,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,Educated people knew it was round
+151,Historical,Medium,Marie Antoinette said Let them eat cake,FALSE,FALSE,90.0%,YES,0.00,0.60,0.382,No evidence she said this
+152,Historical,Medium,Is it false that Marie Antoinette said Let them eat cake?,FALSE,FALSE,90.0%,YES,0.00,0.70,0.445,No evidence she said this
+153,Historical,Medium,The pyramids were built by slaves,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,Paid workers
+154,Historical,Medium,Is it false that The pyramids were built by slaves?,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,Paid workers
+155,Historical,Medium,Mussolini made the trains run on time,FALSE,UNVERIFIED,45.5%,NO,0.30,0.70,0.555,Propaganda myth
+156,Historical,Medium,Is it false that Mussolini made the trains run on time?,FALSE,UNVERIFIED,45.5%,NO,0.30,0.70,0.555,Propaganda myth
+157,Historical,Medium,The guillotine was a French invention,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Existed before French Revolution
+158,Historical,Medium,Is it false that The guillotine was a French invention?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Existed before French Revolution
+159,Historical,Medium,Salem witch trials burned witches,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,They hanged them
+160,Historical,Medium,Is it false that Salem witch trials burned witches?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,They hanged them
+161,Logic_Reasoning,Hard,My mother's son is my cousin,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Mother's son is you or your sibling
+162,Logic_Reasoning,Hard,Is it false that My mother's son is my cousin?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Mother's son is you or your sibling
+163,Logic_Reasoning,Hard,If I flip a coin 10 times and get heads the next flip is more likely tails,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Gambler's fallacy
+164,Logic_Reasoning,Hard,Is it false that If I flip a coin 10 times and get heads the next flip is more likely tails?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Gambler's fallacy
+165,Logic_Reasoning,Hard,My father has two sons and I have two brothers,FALSE,UNVERIFIED,40.9%,NO,0.30,0.60,0.491,You are one of the two sons
+166,Logic_Reasoning,Hard,Is it false that My father has two sons and I have two brothers?,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,You are one of the two sons
+167,Logic_Reasoning,Hard,All dogs are animals. All animals breathe. Therefore all dogs breathe,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Valid logical syllogism
+168,Logic_Reasoning,Hard,Is it true that All dogs are animals. All animals breathe. Therefore all dogs breathe?,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Valid logical syllogism
+169,Logic_Reasoning,Hard,If it's raining the ground is wet. The ground is wet. Therefore it's raining,FALSE,FALSE,95.0%,YES,0.30,0.30,0.300,Affirming the consequent fallacy
+170,Logic_Reasoning,Hard,Is it false that If it's raining the ground is wet. The ground is wet. Therefore it's raining?,FALSE,FALSE,95.0%,YES,0.30,0.20,0.236,Affirming the consequent fallacy
+171,Logic_Reasoning,Hard,Some doctors are rich. Some rich people are unhappy. Therefore some doctors are unhappy,FALSE,UNVERIFIED,40.0%,NO,0.50,0.50,0.500,Invalid syllogism
+172,Logic_Reasoning,Hard,Is it false that Some doctors are rich. Some rich people are unhappy. Therefore some doctors are unhappy?,FALSE,UNVERIFIED,40.0%,NO,0.50,0.50,0.500,Invalid syllogism
+173,Logic_Reasoning,Hard,If A equals B and B equals C then A equals C,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Transitive property
+174,Logic_Reasoning,Hard,Is it true that If A equals B and B equals C then A equals C?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Transitive property
+175,Logic_Reasoning,Hard,You can't prove aliens don't exist so they must exist,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Appeal to ignorance
+176,Logic_Reasoning,Hard,Is it false that You can't prove aliens don't exist so they must exist?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Appeal to ignorance
+177,Logic_Reasoning,Hard,Everyone I know likes pizza so everyone in the world likes pizza,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Hasty generalization
+178,Logic_Reasoning,Hard,Is it false that Everyone I know likes pizza so everyone in the world likes pizza?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Hasty generalization
+179,Logic_Reasoning,Hard,The more firefighters at a fire the more damage so firefighters cause fire damage,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Correlation not causation
+180,Logic_Reasoning,Hard,Is it false that The more firefighters at a fire the more damage so firefighters cause fire damage?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Correlation not causation
+181,Logic_Reasoning,Hard,If all ravens are black and this is black it must be a raven,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Inverse error
+182,Logic_Reasoning,Hard,Is it false that If all ravens are black and this is black it must be a raven?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Inverse error
+183,Logic_Reasoning,Hard,You're either with us or against us,FALSE,UNVERIFIED,40.9%,NO,0.30,0.60,0.491,False dichotomy
+184,Logic_Reasoning,Hard,Is it false that You're either with us or against us?,FALSE,UNVERIFIED,40.9%,NO,0.30,0.60,0.491,False dichotomy
+185,Logic_Reasoning,Hard,This medicine worked for me so it will work for everyone,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Anecdotal evidence
+186,Logic_Reasoning,Hard,Is it false that This medicine worked for me so it will work for everyone?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Anecdotal evidence
+187,Logic_Reasoning,Hard,We've always done it this way so it must be right,FALSE,FALSE,90.0%,YES,0.30,0.70,0.555,Appeal to tradition
+188,Logic_Reasoning,Hard,Is it false that We've always done it this way so it must be right?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Appeal to tradition
+189,Logic_Reasoning,Hard,If we allow gay marriage people will marry animals next,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Slippery slope
+190,Logic_Reasoning,Hard,Is it false that If we allow gay marriage people will marry animals next?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Slippery slope
+191,Logic_Reasoning,Hard,My sister has three brothers. I have two brothers,FALSE,TRUE,95.0%,NO,1.00,0.60,0.745,You are one of her three brothers
+192,Logic_Reasoning,Hard,Is it false that My sister has three brothers. I have two brothers?,FALSE,TRUE,95.0%,NO,1.00,0.50,0.682,You are one of her three brothers
+193,Logic_Reasoning,Hard,If today is Monday tomorrow is Tuesday. Tomorrow is Tuesday so today is Monday,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Invalid logic structure
+194,Logic_Reasoning,Hard,Is it false that If today is Monday tomorrow is Tuesday. Tomorrow is Tuesday so today is Monday?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Invalid logic structure
+195,Logic_Reasoning,Hard,No one has proven this claim false so it must be true,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,Burden of proof fallacy
+196,Logic_Reasoning,Hard,Is it false that No one has proven this claim false so it must be true?,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,Burden of proof fallacy
+197,Logic_Reasoning,Hard,Successful people wake up early. I wake up early so I'll be successful,FALSE,UNVERIFIED,55.0%,NO,0.30,0.85,0.650,Correlation assumed as causation
+198,Logic_Reasoning,Hard,Is it false that Successful people wake up early. I wake up early so I'll be successful?,FALSE,UNVERIFIED,45.5%,NO,0.30,0.70,0.555,Correlation assumed as causation
+199,Logic_Reasoning,Hard,A is taller than B. B is taller than C. Therefore A is taller than C,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Valid transitive relation
+200,Logic_Reasoning,Hard,Is it true that A is taller than B. B is taller than C. Therefore A is taller than C?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Valid transitive relation
+201,Myths_Misconceptions,Medium,Eating turkey makes you sleepy due to tryptophan,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Overeating is the real cause
+202,Myths_Misconceptions,Medium,Is it false that Eating turkey makes you sleepy due to tryptophan?,FALSE,FALSE,90.0%,YES,0.30,0.30,0.300,Overeating is the real cause
+203,Myths_Misconceptions,Medium,Different parts of the tongue taste different flavors,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Debunked taste map
+204,Myths_Misconceptions,Medium,Is it false that Different parts of the tongue taste different flavors?,FALSE,FALSE,90.0%,YES,0.30,0.30,0.300,Debunked taste map
+205,Myths_Misconceptions,Medium,You should wait an hour after eating before swimming,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,No medical basis
+206,Myths_Misconceptions,Medium,Is it false that You should wait an hour after eating before swimming?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,No medical basis
+207,Myths_Misconceptions,Medium,Cracking your knuckles causes arthritis,FALSE,FALSE,90.0%,YES,0.30,0.20,0.236,No proven link
+208,Myths_Misconceptions,Medium,Is it false that Cracking your knuckles causes arthritis?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,No proven link
+209,Myths_Misconceptions,Medium,Swallowed gum stays in your stomach for 7 years,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Passes through normally
+210,Myths_Misconceptions,Medium,Is it false that Swallowed gum stays in your stomach for 7 years?,FALSE,FALSE,95.0%,YES,0.00,0.20,0.127,Passes through normally
+211,Myths_Misconceptions,Medium,You lose most of your body heat through your head,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,No more than other body parts
+212,Myths_Misconceptions,Medium,Is it false that You lose most of your body heat through your head?,FALSE,FALSE,90.0%,YES,0.30,0.70,0.555,No more than other body parts
+213,Myths_Misconceptions,Medium,Eating at night makes you gain more weight,FALSE,UNVERIFIED,47.3%,NO,0.30,0.50,0.427,Total calories matter not timing
+214,Myths_Misconceptions,Medium,Is it false that Eating at night makes you gain more weight?,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,Total calories matter not timing
+215,Myths_Misconceptions,Medium,Cold weather causes colds,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Viruses cause colds
+216,Myths_Misconceptions,Medium,Is it false that Cold weather causes colds?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Viruses cause colds
+217,Myths_Misconceptions,Medium,Hair and fingernails continue growing after death,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Skin dehydration creates illusion
+218,Myths_Misconceptions,Medium,Is it false that Hair and fingernails continue growing after death?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Skin dehydration creates illusion
+219,Myths_Misconceptions,Medium,Touching a baby bird causes parents to abandon it,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Most birds have poor sense of smell
+220,Myths_Misconceptions,Medium,Is it false that Touching a baby bird causes parents to abandon it?,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Most birds have poor sense of smell
+221,Myths_Misconceptions,Medium,Chameleons change color to match their surroundings,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Change for temperature or mood
+222,Myths_Misconceptions,Medium,Is it false that Chameleons change color to match their surroundings?,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Change for temperature or mood
+223,Myths_Misconceptions,Medium,Lemmings commit mass suicide,FALSE,FALSE,90.0%,YES,0.00,0.20,0.127,Disney documentary faked it
+224,Myths_Misconceptions,Medium,Is it false that Lemmings commit mass suicide?,FALSE,FALSE,90.0%,YES,0.00,0.20,0.127,Disney documentary faked it
+225,Myths_Misconceptions,Medium,Bumblebees shouldn't be able to fly according to physics,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Outdated aerodynamic model
+226,Myths_Misconceptions,Medium,Is it false that Bumblebees shouldn't be able to fly according to physics?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Outdated aerodynamic model
+227,Myths_Misconceptions,Medium,Mount Everest is the tallest mountain from base to peak,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Mauna Kea is taller from base
+228,Myths_Misconceptions,Medium,Is it false that Mount Everest is the tallest mountain from base to peak?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Mauna Kea is taller from base
+229,Myths_Misconceptions,Medium,The Coriolis effect determines which way toilets flush,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Too small scale for effect
+230,Myths_Misconceptions,Medium,Is it false that The Coriolis effect determines which way toilets flush?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Too small scale for effect
+231,Myths_Misconceptions,Medium,Medieval people thought the Earth was flat,FALSE,FALSE,90.0%,YES,0.00,0.20,0.127,Educated people knew it was round
+232,Myths_Misconceptions,Medium,Is it false that Medieval people thought the Earth was flat?,FALSE,FALSE,90.0%,YES,0.00,0.20,0.127,Educated people knew it was round
+233,Myths_Misconceptions,Medium,Humans evolved from monkeys,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Common ancestor not from modern monkeys
+234,Myths_Misconceptions,Medium,Is it false that Humans evolved from monkeys?,FALSE,FALSE,90.0%,YES,0.30,0.50,0.427,Common ancestor not from modern monkeys
+235,Myths_Misconceptions,Medium,Glass is a slow-moving liquid,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Amorphous solid
+236,Myths_Misconceptions,Medium,Is it false that Glass is a slow-moving liquid?,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Amorphous solid
+237,Myths_Misconceptions,Medium,Goldfish will grow to match their tank size,FALSE,UNVERIFIED,47.3%,NO,0.30,0.50,0.427,Stunted growth is unhealthy
+238,Myths_Misconceptions,Medium,Is it false that Goldfish will grow to match their tank size?,FALSE,UNVERIFIED,47.3%,NO,0.30,0.50,0.427,Stunted growth is unhealthy
+239,Myths_Misconceptions,Medium,Poinsettias are highly toxic,FALSE,FALSE,90.0%,YES,0.30,0.60,0.491,Mildly irritating at worst
+240,Myths_Misconceptions,Medium,Is it false that Poinsettias are highly toxic?,FALSE,FALSE,90.0%,YES,0.30,0.40,0.364,Mildly irritating at worst
+241,Current_Events,Easy,Donald Trump won the 2024 US presidential election,TRUE,UNVERIFIED,52.7%,NO,0.50,0.70,0.627,November 2024
+242,Current_Events,Easy,Is it true that Donald Trump won the 2024 US presidential election?,TRUE,UNVERIFIED,46.4%,NO,0.50,0.60,0.564,November 2024
+243,Current_Events,Easy,Joe Biden was the 46th US President,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,2021-2025
+244,Current_Events,Easy,Is it true that Joe Biden was the 46th US President?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,2021-2025
+245,Current_Events,Easy,COVID-19 originated in Wuhan China,TRUE,TRUE,90.0%,YES,0.70,0.60,0.636,First identified there in 2019
+246,Current_Events,Easy,Is it true that COVID-19 originated in Wuhan China?,TRUE,UNVERIFIED,47.3%,NO,0.70,0.50,0.573,First identified there in 2019
+247,Current_Events,Easy,The James Webb Space Telescope has sent back images,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Launched 2021 operational 2022
+248,Current_Events,Easy,Is it true that The James Webb Space Telescope has sent back images?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Launched 2021 operational 2022
+249,Current_Events,Easy,Russia invaded Ukraine in 2022,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,February 24 2022
+250,Current_Events,Easy,Is it true that Russia invaded Ukraine in 2022?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,February 24 2022
+251,Current_Events,Easy,Queen Elizabeth II died in 2022,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,September 8 2022
+252,Current_Events,Easy,Is it true that Queen Elizabeth II died in 2022?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,September 8 2022
+253,Current_Events,Easy,Elon Musk bought Twitter,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,October 2022 renamed to X
+254,Current_Events,Easy,Is it true that Elon Musk bought Twitter?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,October 2022 renamed to X
+255,Current_Events,Easy,ChatGPT was released to the public,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,November 2022
+256,Current_Events,Easy,Is it true that ChatGPT was released to the public?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,November 2022
+257,Current_Events,Easy,The UK left the European Union,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Brexit completed January 2020
+258,Current_Events,Easy,Is it true that The UK left the European Union?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Brexit completed January 2020
+259,Current_Events,Easy,SpaceX has successfully launched reusable rockets,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Multiple successful missions
+260,Current_Events,Easy,Is it true that SpaceX has successfully launched reusable rockets?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Multiple successful missions
+261,Controversial,Hard,Abortion should be legal in all circumstances,UNVERIFIED,UNVERIFIED,52.7%,YES,0.50,0.70,0.627,Ethical political opinion
+262,Controversial,Hard,What do you think about the claim that Abortion should be legal in all circumstances?,UNVERIFIED,TRUE,72.0%,NO,0.50,0.85,0.723,Ethical political opinion
+263,Controversial,Hard,The death penalty deters crime,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Mixed research evidence
+264,Controversial,Hard,What do you think about the claim that The death penalty deters crime?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Mixed research evidence
+265,Controversial,Hard,Gun control reduces violent crime,UNVERIFIED,UNVERIFIED,40.9%,YES,0.70,0.40,0.509,Complex contextual evidence
+266,Controversial,Hard,What do you think about the claim that Gun control reduces violent crime?,UNVERIFIED,UNVERIFIED,53.6%,YES,0.70,0.60,0.636,Complex contextual evidence
+267,Controversial,Hard,Capitalism is superior to socialism,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Value judgment not factual
+268,Controversial,Hard,What do you think about the claim that Capitalism is superior to socialism?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Value judgment not factual
+269,Controversial,Hard,Artificial intelligence will surpass human intelligence,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Future prediction
+270,Controversial,Hard,What do you think about the claim that Artificial intelligence will surpass human intelligence?,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Future prediction
+271,Controversial,Hard,God exists,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Unfalsifiable metaphysical claim
+272,Controversial,Hard,What do you think about the claim that God exists?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Unfalsifiable metaphysical claim
+273,Controversial,Hard,Free will exists,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Philosophical debate
+274,Controversial,Hard,What do you think about the claim that Free will exists?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Philosophical debate
+275,Controversial,Hard,The death penalty is morally wrong,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Ethical judgment
+276,Controversial,Hard,What do you think about the claim that The death penalty is morally wrong?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Ethical judgment
+277,Controversial,Hard,Nuclear energy is safer than fossil fuels,UNVERIFIED,UNVERIFIED,60.0%,YES,0.70,0.70,0.700,Depends on metrics used
+278,Controversial,Hard,What do you think about the claim that Nuclear energy is safer than fossil fuels?,UNVERIFIED,UNVERIFIED,53.6%,YES,0.70,0.60,0.636,Depends on metrics used
+279,Controversial,Hard,Vegetarian diets are healthier than omnivorous diets,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Depends on implementation
+280,Controversial,Hard,What do you think about the claim that Vegetarian diets are healthier than omnivorous diets?,UNVERIFIED,UNVERIFIED,47.3%,YES,0.70,0.50,0.573,Depends on implementation
+281,Ambiguous,Hard,The movie was good,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Subjective opinion
+282,Ambiguous,Hard,What do you think about the claim that The movie was good?,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Subjective opinion
+283,Ambiguous,Hard,It's better to be safe than sorry,UNVERIFIED,UNVERIFIED,53.6%,YES,0.70,0.60,0.636,Context-dependent maxim
+284,Ambiguous,Hard,What do you think about the claim that It's better to be safe than sorry?,UNVERIFIED,UNVERIFIED,60.0%,YES,0.70,0.70,0.700,Context-dependent maxim
+285,Ambiguous,Hard,Money can't buy happiness,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Nuanced relationship
+286,Ambiguous,Hard,What do you think about the claim that Money can't buy happiness?,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Nuanced relationship
+287,Ambiguous,Hard,Beauty is in the eye of the beholder,UNVERIFIED,TRUE,90.0%,NO,1.00,0.70,0.809,Subjective aesthetic judgment
+288,Ambiguous,Hard,What do you think about the claim that Beauty is in the eye of the beholder?,UNVERIFIED,TRUE,90.0%,NO,1.00,0.60,0.745,Subjective aesthetic judgment
+289,Ambiguous,Hard,Everything happens for a reason,UNVERIFIED,TRUE,72.0%,NO,0.50,0.85,0.723,Philosophical religious belief
+290,Ambiguous,Hard,What do you think about the claim that Everything happens for a reason?,UNVERIFIED,TRUE,72.0%,NO,0.50,0.85,0.723,Philosophical religious belief
+291,Ambiguous,Hard,The ends justify the means,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Ethical framework question
+292,Ambiguous,Hard,What do you think about the claim that The ends justify the means?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Ethical framework question
+293,Ambiguous,Hard,Time heals all wounds,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Metaphorical not literal
+294,Ambiguous,Hard,What do you think about the claim that Time heals all wounds?,UNVERIFIED,UNVERIFIED,46.4%,YES,0.50,0.60,0.564,Metaphorical not literal
+295,Ambiguous,Hard,You can't teach an old dog new tricks,FALSE,UNVERIFIED,45.5%,NO,0.30,0.70,0.555,Studies show adults can learn
+296,Ambiguous,Hard,Is it false that You can't teach an old dog new tricks?,FALSE,UNVERIFIED,53.6%,NO,0.30,0.40,0.364,Studies show adults can learn
+297,Ambiguous,Hard,What doesn't kill you makes you stronger,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Sometimes true often not
+298,Ambiguous,Hard,What do you think about the claim that What doesn't kill you makes you stronger?,UNVERIFIED,UNVERIFIED,40.0%,YES,0.50,0.50,0.500,Sometimes true often not
+299,Ambiguous,Hard,The customer is always right,FALSE,UNVERIFIED,40.9%,NO,0.30,0.60,0.491,Often incorrect in business
+300,Ambiguous,Hard,Is it false that The customer is always right?,FALSE,UNVERIFIED,47.3%,NO,0.30,0.50,0.427,Often incorrect in business
+301,Factual_Easy,Easy,The Eiffel Tower is in Paris,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Well-known landmark location
+302,Factual_Easy,Easy,Is it true that The Eiffel Tower is in Paris?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Well-known landmark location
+303,Factual_Easy,Easy,Can you confirm that The Eiffel Tower is in Paris?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Well-known landmark location
+304,Factual_Easy,Easy,Tokyo is the capital of Japan,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Current capital
+305,Factual_Easy,Easy,Is it true that Tokyo is the capital of Japan?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Current capital
+306,Factual_Easy,Easy,Can you confirm that Tokyo is the capital of Japan?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Current capital
+307,Factual_Easy,Easy,The Atlantic Ocean is larger than the Pacific,FALSE,FALSE,95.0%,YES,0.00,0.85,0.541,Pacific is largest
+308,Factual_Easy,Easy,Is it false that The Atlantic Ocean is larger than the Pacific?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Pacific is largest
+309,Factual_Easy,Easy,Someone told me The Atlantic Ocean is larger than the Pacific. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Pacific is largest
+310,Factual_Easy,Easy,Humans have 206 bones,TRUE,TRUE,95.0%,YES,1.00,0.70,0.809,Human anatomy
+311,Factual_Easy,Easy,Is it true that Humans have 206 bones?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Human anatomy
+312,Factual_Easy,Easy,Can you confirm that Humans have 206 bones?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Human anatomy
+313,Factual_Easy,Easy,The Sun revolves around the Earth,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Heliocentric model
+314,Factual_Easy,Easy,Is it false that The Sun revolves around the Earth?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Heliocentric model
+315,Factual_Easy,Easy,Someone told me The Sun revolves around the Earth. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Heliocentric model
+316,Factual_Easy,Easy,Oxygen is necessary for human life,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Basic biology
+317,Factual_Easy,Easy,Is it true that Oxygen is necessary for human life?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Basic biology
+318,Factual_Easy,Easy,Can you confirm that Oxygen is necessary for human life?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Basic biology
+319,Factual_Easy,Easy,Deserts receive abundant rainfall,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Definition of desert
+320,Factual_Easy,Easy,Is it false that Deserts receive abundant rainfall?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Definition of desert
+321,Factual_Easy,Easy,Someone told me Deserts receive abundant rainfall. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Definition of desert
+322,Factual_Easy,Easy,The speed of sound is faster than light,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Physics constants
+323,Factual_Easy,Easy,Is it false that The speed of sound is faster than light?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Physics constants
+324,Factual_Easy,Easy,Someone told me The speed of sound is faster than light. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.70,0.445,Physics constants
+325,Factual_Easy,Easy,Brazil is in South America,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Geography
+326,Factual_Easy,Easy,Is it true that Brazil is in South America?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Geography
+327,Factual_Easy,Easy,Can you confirm that Brazil is in South America?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Geography
+328,Factual_Easy,Easy,Penguins can fly,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Flightless birds
+329,Factual_Easy,Easy,Is it false that Penguins can fly?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Flightless birds
+330,Factual_Easy,Easy,Someone told me Penguins can fly. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Flightless birds
+331,Factual_Easy,Easy,The Sahara is a desert,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Largest hot desert
+332,Factual_Easy,Easy,Is it true that The Sahara is a desert?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Largest hot desert
+333,Factual_Easy,Easy,Can you confirm that The Sahara is a desert?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Largest hot desert
+334,Factual_Easy,Easy,Fish can breathe underwater,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Aquatic respiration
+335,Factual_Easy,Easy,Is it true that Fish can breathe underwater?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Aquatic respiration
+336,Factual_Easy,Easy,Can you confirm that Fish can breathe underwater?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Aquatic respiration
+337,Factual_Easy,Easy,The moon produces its own light,FALSE,FALSE,95.0%,YES,0.00,0.70,0.445,Reflects sunlight
+338,Factual_Easy,Easy,Is it false that The moon produces its own light?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Reflects sunlight
+339,Factual_Easy,Easy,Someone told me The moon produces its own light. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Reflects sunlight
+340,Factual_Easy,Easy,Elephants are mammals,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Animal classification
+341,Factual_Easy,Easy,Is it true that Elephants are mammals?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Animal classification
+342,Factual_Easy,Easy,Can you confirm that Elephants are mammals?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Animal classification
+343,Scientific,Medium,Lightning is hotter than the sun's surface,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Temperature comparison
+344,Scientific,Medium,Is it true that Lightning is hotter than the sun's surface?,TRUE,TRUE,95.0%,YES,1.00,0.85,0.905,Temperature comparison
+345,Scientific,Medium,Can you confirm that Lightning is hotter than the sun's surface?,TRUE,TRUE,90.0%,YES,1.00,0.60,0.745,Temperature comparison
+346,Scientific,Medium,The human brain stops developing at age 18,FALSE,FALSE,90.0%,YES,0.00,0.50,0.318,Neuroscience shows continued development
+347,Scientific,Medium,Is it false that The human brain stops developing at age 18?,FALSE,FALSE,90.0%,YES,0.00,0.40,0.255,Neuroscience shows continued development
+348,Scientific,Medium,Someone told me The human brain stops developing at age 18. Is this true?,FALSE,FALSE,90.0%,YES,0.00,0.40,0.255,Neuroscience shows continued development
+349,Scientific,Medium,All bacteria are harmful,FALSE,FALSE,95.0%,YES,0.00,0.50,0.318,Many beneficial bacteria exist
+350,Scientific,Medium,Is it false that All bacteria are harmful?,FALSE,FALSE,95.0%,YES,0.00,0.30,0.191,Many beneficial bacteria exist
+351,Scientific,Medium,Someone told me All bacteria are harmful. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.40,0.255,Many beneficial bacteria exist
+352,Scientific,Medium,Photosynthesis requires sunlight,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Plant biology
+353,Scientific,Medium,Is it true that Photosynthesis requires sunlight?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Plant biology
+354,Scientific,Medium,Can you confirm that Photosynthesis requires sunlight?,TRUE,TRUE,95.0%,YES,1.00,0.50,0.682,Plant biology
+355,Scientific,Medium,Atoms are mostly empty space,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Atomic structure
+356,Scientific,Medium,Is it true that Atoms are mostly empty space?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Atomic structure
+357,Scientific,Medium,Can you confirm that Atoms are mostly empty space?,TRUE,TRUE,95.0%,YES,1.00,0.60,0.745,Atomic structure
+358,Myths,Medium,Glass is a liquid at room temperature,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Common misconception
+359,Myths,Medium,Is it false that Glass is a liquid at room temperature?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Common misconception
+360,Myths,Medium,Someone told me Glass is a liquid at room temperature. Is this true?,FALSE,FALSE,95.0%,YES,0.00,0.60,0.382,Common misconception

@@ -10,6 +10,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from app.api import verify
 from app.core.config import get_settings
 
 logging.basicConfig(
@@ -25,6 +26,7 @@ settings = get_settings()
 async def lifespan(app: FastAPI):
     logger.info("Starting VerifAI API...")
     logger.info(f"Environment: {settings.environment}")
+    logger.info(f"Real adapters: {settings.enable_real_adapters}")
     yield
     logger.info("Shutting down VerifAI API...")
 
@@ -61,12 +63,17 @@ async def add_request_id(request: Request, call_next):
     return response
 
 
+# Include routers
+app.include_router(verify.router, prefix="/api/v1", tags=["Verify"])
+
+
 @app.get("/")
 async def root():
     return {
         "name": "VerifAI API",
         "version": "1.0.0",
-        "status": "running"
+        "status": "running",
+        "docs": "/docs"
     }
 
 

@@ -1,32 +1,23 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import InputScreen from './src/screens/InputScreen';
+import ResultScreen from './src/screens/ResultScreen';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style="light" />
-      <Text style={styles.title}>VerifAI</Text>
-      <Text style={styles.subtitle}>Fact-checking app coming soon...</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator
+        initialRouteName="Input"
+        screenOptions={{
+          headerShown: false,
+        }}
+      >
+        <Stack.Screen name="Input" component={InputScreen} />
+        <Stack.Screen name="Result" component={ResultScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#2563eb',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 48,
-    fontWeight: 'bold',
-    color: '#fff',
-  },
-  subtitle: {
-    fontSize: 18,
-    color: '#dbeafe',
-    marginTop: 8,
-  },
-});

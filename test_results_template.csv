@@ -1,0 +1,4 @@
+Test_ID,Statement,Expected_Verdict,Actual_Verdict,Actual_Confidence,Match,OpenAI_Score,Search_Score,Notes,Issue_Type
+1,"Water boils at 100°C at sea level",TRUE,,,,,,,
+2,"The Great Wall is visible from space",FALSE,,,,,,,
+3,"Earth is 4.5 billion years old",TRUE,,,,,,,

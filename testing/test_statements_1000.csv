@@ -1,0 +1,896 @@
+test_id,category,difficulty,statement,expected_verdict,reasoning
+1,Factual_Easy,Easy,Water boils at 100 degrees Celsius at sea level,TRUE,Basic scientific fact
+2,Factual_Easy,Easy,Is it true that Water boils at 100 degrees Celsius at sea level?,TRUE,Basic scientific fact
+3,Factual_Easy,Easy,Paris is the capital of France,TRUE,Well-known geographic fact
+4,Factual_Easy,Easy,Is it true that Paris is the capital of France?,TRUE,Well-known geographic fact
+5,Factual_Easy,Easy,The Earth is flat,FALSE,Debunked conspiracy theory
+6,Factual_Easy,Easy,Is it false that The Earth is flat?,FALSE,Debunked conspiracy theory
+7,Factual_Easy,Easy,The sun rises in the east,TRUE,Observable daily phenomenon
+8,Factual_Easy,Easy,Is it true that The sun rises in the east?,TRUE,Observable daily phenomenon
+9,Factual_Easy,Easy,Gold is heavier than water,TRUE,Basic material property
+10,Factual_Easy,Easy,Is it true that Gold is heavier than water?,TRUE,Basic material property
+11,Factual_Easy,Easy,Humans need oxygen to survive,TRUE,Biological fact
+12,Factual_Easy,Easy,Is it true that Humans need oxygen to survive?,TRUE,Biological fact
+13,Factual_Easy,Easy,The moon is made of cheese,FALSE,Common children's myth
+14,Factual_Easy,Easy,Is it false that The moon is made of cheese?,FALSE,Common children's myth
+15,Factual_Easy,Easy,Fire is cold,FALSE,Contradicts basic physics
+16,Factual_Easy,Easy,Is it false that Fire is cold?,FALSE,Contradicts basic physics
+17,Factual_Easy,Easy,Ice melts at room temperature,TRUE,Observable phenomenon
+18,Factual_Easy,Easy,Is it true that Ice melts at room temperature?,TRUE,Observable phenomenon
+19,Factual_Easy,Easy,Plants perform photosynthesis,TRUE,Basic biology
+20,Factual_Easy,Easy,Is it true that Plants perform photosynthesis?,TRUE,Basic biology
+21,Factual_Easy,Easy,The Pacific Ocean is the largest ocean,TRUE,Geographic fact
+22,Factual_Easy,Easy,Is it true that The Pacific Ocean is the largest ocean?,TRUE,Geographic fact
+23,Factual_Easy,Easy,Mt Everest is the tallest mountain on Earth,TRUE,Well-documented fact
+24,Factual_Easy,Easy,Is it true that Mt Everest is the tallest mountain on Earth?,TRUE,Well-documented fact
+25,Factual_Easy,Easy,Diamonds are made of carbon,TRUE,Scientific fact
+26,Factual_Easy,Easy,Is it true that Diamonds are made of carbon?,TRUE,Scientific fact
+27,Factual_Easy,Easy,The human body has four lungs,FALSE,Incorrect anatomy
+28,Factual_Easy,Easy,Is it false that The human body has four lungs?,FALSE,Incorrect anatomy
+29,Factual_Easy,Easy,Light travels faster than sound,TRUE,Physics principle
+30,Factual_Easy,Easy,Is it true that Light travels faster than sound?,TRUE,Physics principle
+31,Factual_Easy,Easy,Antarctica is a continent,TRUE,Geographic classification
+32,Factual_Easy,Easy,Is it true that Antarctica is a continent?,TRUE,Geographic classification
+33,Factual_Easy,Easy,Spiders have six legs,FALSE,Spiders have 8 legs
+34,Factual_Easy,Easy,Is it false that Spiders have six legs?,FALSE,Spiders have 8 legs
+35,Factual_Easy,Easy,The Great Pyramid is in Egypt,TRUE,Historic location
+36,Factual_Easy,Easy,Is it true that The Great Pyramid is in Egypt?,TRUE,Historic location
+37,Factual_Easy,Easy,Dogs can fly naturally,FALSE,Obvious impossibility
+38,Factual_Easy,Easy,Is it false that Dogs can fly naturally?,FALSE,Obvious impossibility
+39,Factual_Easy,Easy,Seasons are caused by Earth's tilt,TRUE,Astronomical fact
+40,Factual_Easy,Easy,Is it true that Seasons are caused by Earth's tilt?,TRUE,Astronomical fact
+41,Factual_Easy,Easy,Rome is the capital of Italy,TRUE,Current capital
+42,Factual_Easy,Easy,Is it true that Rome is the capital of Italy?,TRUE,Current capital
+43,Factual_Easy,Easy,Sharks are mammals,FALSE,Sharks are fish
+44,Factual_Easy,Easy,Is it false that Sharks are mammals?,FALSE,Sharks are fish
+45,Factual_Easy,Easy,The Amazon is the longest river,FALSE,Nile is longest
+46,Factual_Easy,Easy,Is it false that The Amazon is the longest river?,FALSE,Nile is longest
+47,Factual_Easy,Easy,Gravity pulls objects downward,TRUE,Physics law
+48,Factual_Easy,Easy,Is it true that Gravity pulls objects downward?,TRUE,Physics law
+49,Factual_Easy,Easy,Penguins live at the North Pole,FALSE,Penguins are in Antarctica
+50,Factual_Easy,Easy,Is it false that Penguins live at the North Pole?,FALSE,Penguins are in Antarctica
+51,Factual_Easy,Easy,Blood is blue inside the body,FALSE,Common misconception
+52,Factual_Easy,Easy,Is it false that Blood is blue inside the body?,FALSE,Common misconception
+53,Factual_Easy,Easy,A year has 365 days,TRUE,Calendar fact
+54,Factual_Easy,Easy,Is it true that A year has 365 days?,TRUE,Calendar fact
+55,Factual_Easy,Easy,Jupiter is the largest planet in our solar system,TRUE,Astronomical fact
+56,Factual_Easy,Easy,Is it true that Jupiter is the largest planet in our solar system?,TRUE,Astronomical fact
+57,Factual_Easy,Easy,Humans have five senses,TRUE,Traditional classification
+58,Factual_Easy,Easy,Is it true that Humans have five senses?,TRUE,Traditional classification
+59,Factual_Easy,Easy,The speed of light is constant,TRUE,Physics principle
+60,Factual_Easy,Easy,Is it true that The speed of light is constant?,TRUE,Physics principle
+61,Scientific,Medium,Vaccines cause autism,FALSE,Thoroughly debunked
+62,Scientific,Medium,Is it false that Vaccines cause autism?,FALSE,Thoroughly debunked
+63,Scientific,Medium,Climate change is caused primarily by human activity,TRUE,Scientific consensus
+64,Scientific,Medium,Is it true that Climate change is caused primarily by human activity?,TRUE,Scientific consensus
+65,Scientific,Medium,Evolution is just a theory with no evidence,FALSE,Misunderstanding of science
+66,Scientific,Medium,Is it false that Evolution is just a theory with no evidence?,FALSE,Misunderstanding of science
+67,Scientific,Medium,The Earth is approximately 4.5 billion years old,TRUE,Radiometric dating
+68,Scientific,Medium,Is it true that The Earth is approximately 4.5 billion years old?,TRUE,Radiometric dating
+69,Scientific,Medium,Humans only use 10% of their brains,FALSE,Neurological myth
+70,Scientific,Medium,Is it false that Humans only use 10% of their brains?,FALSE,Neurological myth
+71,Scientific,Medium,Antibiotics are effective against viruses,FALSE,Only work on bacteria
+72,Scientific,Medium,Is it false that Antibiotics are effective against viruses?,FALSE,Only work on bacteria
+73,Scientific,Medium,GMO foods are dangerous to human health,FALSE,No scientific evidence
+74,Scientific,Medium,Is it false that GMO foods are dangerous to human health?,FALSE,No scientific evidence
+75,Scientific,Medium,Organic foods are more nutritious than conventional,UNVERIFIED,Evidence is mixed
+76,Scientific,Medium,What do you think about the claim that Organic foods are more nutritious than conventional?,UNVERIFIED,Evidence is mixed
+77,Scientific,Medium,Global warming stopped in 1998,FALSE,Cherry-picked data
+78,Scientific,Medium,Is it false that Global warming stopped in 1998?,FALSE,Cherry-picked data
+79,Scientific,Medium,The Earth's magnetic field is about to flip,UNVERIFIED,Overdue but timing unknown
+80,Scientific,Medium,What do you think about the claim that The Earth's magnetic field is about to flip?,UNVERIFIED,Overdue but timing unknown
+81,Scientific,Medium,DNA is shaped like a double helix,TRUE,Watson-Crick model
+82,Scientific,Medium,Is it true that DNA is shaped like a double helix?,TRUE,Watson-Crick model
+83,Scientific,Medium,Chemicals are dangerous and should be avoided,FALSE,Everything is chemicals
+84,Scientific,Medium,Is it false that Chemicals are dangerous and should be avoided?,FALSE,Everything is chemicals
+85,Scientific,Medium,Natural is always better than synthetic,FALSE,Naturalistic fallacy
+86,Scientific,Medium,Is it false that Natural is always better than synthetic?,FALSE,Naturalistic fallacy
+87,Scientific,Medium,Cracking knuckles causes arthritis,FALSE,No scientific link
+88,Scientific,Medium,Is it false that Cracking knuckles causes arthritis?,FALSE,No scientific link
+89,Scientific,Medium,We lose most heat through our heads,FALSE,Myth from military study
+90,Scientific,Medium,Is it false that We lose most heat through our heads?,FALSE,Myth from military study
+91,Scientific,Medium,Goldfish have a 3-second memory,FALSE,Can remember for months
+92,Scientific,Medium,Is it false that Goldfish have a 3-second memory?,FALSE,Can remember for months
+93,Scientific,Medium,Sugar makes children hyperactive,FALSE,No consistent evidence
+94,Scientific,Medium,Is it false that Sugar makes children hyperactive?,FALSE,No consistent evidence
+95,Scientific,Medium,Reading in dim light damages eyesight,FALSE,"Causes strain, not damage"
+96,Scientific,Medium,Is it false that Reading in dim light damages eyesight?,FALSE,"Causes strain, not damage"
+97,Scientific,Medium,Shaving makes hair grow back thicker,FALSE,Optical illusion
+98,Scientific,Medium,Is it false that Shaving makes hair grow back thicker?,FALSE,Optical illusion
+99,Scientific,Medium,You need to drink 8 glasses of water daily,FALSE,No scientific basis for exact amount
+100,Scientific,Medium,Is it false that You need to drink 8 glasses of water daily?,FALSE,No scientific basis for exact amount
+101,Scientific,Medium,Microwaves cause cancer,FALSE,Non-ionizing radiation
+102,Scientific,Medium,Is it false that Microwaves cause cancer?,FALSE,Non-ionizing radiation
+103,Scientific,Medium,Eating carrots improves night vision,FALSE,WWII propaganda
+104,Scientific,Medium,Is it false that Eating carrots improves night vision?,FALSE,WWII propaganda
+105,Scientific,Medium,The tongue has taste zones,FALSE,Debunked taste map
+106,Scientific,Medium,Is it false that The tongue has taste zones?,FALSE,Debunked taste map
+107,Scientific,Medium,Lightning never strikes the same place twice,FALSE,Can strike repeatedly
+108,Scientific,Medium,Is it false that Lightning never strikes the same place twice?,FALSE,Can strike repeatedly
+109,Scientific,Medium,Bats are blind,FALSE,They can see
+110,Scientific,Medium,Is it false that Bats are blind?,FALSE,They can see
+111,Scientific,Medium,Bulls are enraged by the color red,FALSE,Bulls are colorblind to red
+112,Scientific,Medium,Is it false that Bulls are enraged by the color red?,FALSE,Bulls are colorblind to red
+113,Scientific,Medium,Daddy longlegs are the most venomous spiders,FALSE,Not even spiders
+114,Scientific,Medium,Is it false that Daddy longlegs are the most venomous spiders?,FALSE,Not even spiders
+115,Scientific,Medium,Coffee stunts your growth,FALSE,No evidence
+116,Scientific,Medium,Is it false that Coffee stunts your growth?,FALSE,No evidence
+117,Scientific,Medium,Ostriches bury their heads in sand,FALSE,They dig nests
+118,Scientific,Medium,Is it false that Ostriches bury their heads in sand?,FALSE,They dig nests
+119,Scientific,Medium,Humans evolved from chimpanzees,FALSE,"Common ancestor, not from"
+120,Scientific,Medium,Is it false that Humans evolved from chimpanzees?,FALSE,"Common ancestor, not from"
+121,Historical,Medium,The Titanic sank in 1912,TRUE,"April 15, 1912"
+122,Historical,Medium,Is it true that The Titanic sank in 1912?,TRUE,"April 15, 1912"
+123,Historical,Medium,World War II ended in 1945,TRUE,"September 2, 1945"
+124,Historical,Medium,Is it true that World War II ended in 1945?,TRUE,"September 2, 1945"
+125,Historical,Medium,Christopher Columbus discovered America in 1492,FALSE,Indigenous peoples were there
+126,Historical,Medium,Is it false that Christopher Columbus discovered America in 1492?,FALSE,Indigenous peoples were there
+127,Historical,Medium,Napoleon Bonaparte was extremely short,FALSE,Average height for his time
+128,Historical,Medium,Is it false that Napoleon Bonaparte was extremely short?,FALSE,Average height for his time
+129,Historical,Medium,The Great Wall of China is visible from space,FALSE,Too narrow to see unaided
+130,Historical,Medium,Is it false that The Great Wall of China is visible from space?,FALSE,Too narrow to see unaided
+131,Historical,Medium,Vikings wore horned helmets,FALSE,Romantic myth
+132,Historical,Medium,Is it false that Vikings wore horned helmets?,FALSE,Romantic myth
+133,Historical,Medium,George Washington had wooden teeth,FALSE,"Made of ivory, bone, lead"
+134,Historical,Medium,Is it false that George Washington had wooden teeth?,FALSE,"Made of ivory, bone, lead"
+135,Historical,Medium,Humans and dinosaurs coexisted,FALSE,65 million years apart
+136,Historical,Medium,Is it false that Humans and dinosaurs coexisted?,FALSE,65 million years apart
+137,Historical,Medium,Cleopatra was Egyptian,FALSE,Greek Macedonian descent
+138,Historical,Medium,Is it false that Cleopatra was Egyptian?,FALSE,Greek Macedonian descent
+139,Historical,Medium,The Middle Ages were a period of no progress,FALSE,Many innovations occurred
+140,Historical,Medium,Is it false that The Middle Ages were a period of no progress?,FALSE,Many innovations occurred
+141,Historical,Medium,Nero fiddled while Rome burned,FALSE,Fiddles didn't exist then
+142,Historical,Medium,Is it false that Nero fiddled while Rome burned?,FALSE,Fiddles didn't exist then
+143,Historical,Medium,Thomas Edison invented the light bulb,FALSE,Improved existing design
+144,Historical,Medium,Is it false that Thomas Edison invented the light bulb?,FALSE,Improved existing design
+145,Historical,Medium,Einstein failed mathematics in school,FALSE,Excelled at math
+146,Historical,Medium,Is it false that Einstein failed mathematics in school?,FALSE,Excelled at math
+147,Historical,Medium,The American Civil War was fought over slavery,TRUE,Primary cause
+148,Historical,Medium,Is it true that The American Civil War was fought over slavery?,TRUE,Primary cause
+149,Historical,Medium,Columbus thought the Earth was flat,FALSE,Educated people knew it was round
+150,Historical,Medium,Is it false that Columbus thought the Earth was flat?,FALSE,Educated people knew it was round
+151,Historical,Medium,Marie Antoinette said Let them eat cake,FALSE,No evidence she said this
+152,Historical,Medium,Is it false that Marie Antoinette said Let them eat cake?,FALSE,No evidence she said this
+153,Historical,Medium,The pyramids were built by slaves,FALSE,Paid workers
+154,Historical,Medium,Is it false that The pyramids were built by slaves?,FALSE,Paid workers
+155,Historical,Medium,Mussolini made the trains run on time,FALSE,Propaganda myth
+156,Historical,Medium,Is it false that Mussolini made the trains run on time?,FALSE,Propaganda myth
+157,Historical,Medium,The guillotine was a French invention,FALSE,Existed before French Revolution
+158,Historical,Medium,Is it false that The guillotine was a French invention?,FALSE,Existed before French Revolution
+159,Historical,Medium,Salem witch trials burned witches,FALSE,They hanged them
+160,Historical,Medium,Is it false that Salem witch trials burned witches?,FALSE,They hanged them
+161,Logic_Reasoning,Hard,My mother's son is my cousin,FALSE,Mother's son is you or your sibling
+162,Logic_Reasoning,Hard,Is it false that My mother's son is my cousin?,FALSE,Mother's son is you or your sibling
+163,Logic_Reasoning,Hard,If I flip a coin 10 times and get heads the next flip is more likely tails,FALSE,Gambler's fallacy
+164,Logic_Reasoning,Hard,Is it false that If I flip a coin 10 times and get heads the next flip is more likely tails?,FALSE,Gambler's fallacy
+165,Logic_Reasoning,Hard,My father has two sons and I have two brothers,FALSE,You are one of the two sons
+166,Logic_Reasoning,Hard,Is it false that My father has two sons and I have two brothers?,FALSE,You are one of the two sons
+167,Logic_Reasoning,Hard,All dogs are animals. All animals breathe. Therefore all dogs breathe,TRUE,Valid logical syllogism
+168,Logic_Reasoning,Hard,Is it true that All dogs are animals. All animals breathe. Therefore all dogs breathe?,TRUE,Valid logical syllogism
+169,Logic_Reasoning,Hard,If it's raining the ground is wet. The ground is wet. Therefore it's raining,FALSE,Affirming the consequent fallacy
+170,Logic_Reasoning,Hard,Is it false that If it's raining the ground is wet. The ground is wet. Therefore it's raining?,FALSE,Affirming the consequent fallacy
+171,Logic_Reasoning,Hard,Some doctors are rich. Some rich people are unhappy. Therefore some doctors are unhappy,FALSE,Invalid syllogism
+172,Logic_Reasoning,Hard,Is it false that Some doctors are rich. Some rich people are unhappy. Therefore some doctors are unhappy?,FALSE,Invalid syllogism
+173,Logic_Reasoning,Hard,If A equals B and B equals C then A equals C,TRUE,Transitive property
+174,Logic_Reasoning,Hard,Is it true that If A equals B and B equals C then A equals C?,TRUE,Transitive property
+175,Logic_Reasoning,Hard,You can't prove aliens don't exist so they must exist,FALSE,Appeal to ignorance
+176,Logic_Reasoning,Hard,Is it false that You can't prove aliens don't exist so they must exist?,FALSE,Appeal to ignorance
+177,Logic_Reasoning,Hard,Everyone I know likes pizza so everyone in the world likes pizza,FALSE,Hasty generalization
+178,Logic_Reasoning,Hard,Is it false that Everyone I know likes pizza so everyone in the world likes pizza?,FALSE,Hasty generalization
+179,Logic_Reasoning,Hard,The more firefighters at a fire the more damage so firefighters cause fire damage,FALSE,Correlation not causation
+180,Logic_Reasoning,Hard,Is it false that The more firefighters at a fire the more damage so firefighters cause fire damage?,FALSE,Correlation not causation
+181,Logic_Reasoning,Hard,If all ravens are black and this is black it must be a raven,FALSE,Inverse error
+182,Logic_Reasoning,Hard,Is it false that If all ravens are black and this is black it must be a raven?,FALSE,Inverse error
+183,Logic_Reasoning,Hard,You're either with us or against us,FALSE,False dichotomy
+184,Logic_Reasoning,Hard,Is it false that You're either with us or against us?,FALSE,False dichotomy
+185,Logic_Reasoning,Hard,This medicine worked for me so it will work for everyone,FALSE,Anecdotal evidence
+186,Logic_Reasoning,Hard,Is it false that This medicine worked for me so it will work for everyone?,FALSE,Anecdotal evidence
+187,Logic_Reasoning,Hard,We've always done it this way so it must be right,FALSE,Appeal to tradition
+188,Logic_Reasoning,Hard,Is it false that We've always done it this way so it must be right?,FALSE,Appeal to tradition
+189,Logic_Reasoning,Hard,If we allow gay marriage people will marry animals next,FALSE,Slippery slope
+190,Logic_Reasoning,Hard,Is it false that If we allow gay marriage people will marry animals next?,FALSE,Slippery slope
+191,Logic_Reasoning,Hard,My sister has three brothers. I have two brothers,FALSE,You are one of her three brothers
+192,Logic_Reasoning,Hard,Is it false that My sister has three brothers. I have two brothers?,FALSE,You are one of her three brothers
+193,Logic_Reasoning,Hard,If today is Monday tomorrow is Tuesday. Tomorrow is Tuesday so today is Monday,FALSE,Invalid logic structure
+194,Logic_Reasoning,Hard,Is it false that If today is Monday tomorrow is Tuesday. Tomorrow is Tuesday so today is Monday?,FALSE,Invalid logic structure
+195,Logic_Reasoning,Hard,No one has proven this claim false so it must be true,FALSE,Burden of proof fallacy
+196,Logic_Reasoning,Hard,Is it false that No one has proven this claim false so it must be true?,FALSE,Burden of proof fallacy
+197,Logic_Reasoning,Hard,Successful people wake up early. I wake up early so I'll be successful,FALSE,Correlation assumed as causation
+198,Logic_Reasoning,Hard,Is it false that Successful people wake up early. I wake up early so I'll be successful?,FALSE,Correlation assumed as causation
+199,Logic_Reasoning,Hard,A is taller than B. B is taller than C. Therefore A is taller than C,TRUE,Valid transitive relation
+200,Logic_Reasoning,Hard,Is it true that A is taller than B. B is taller than C. Therefore A is taller than C?,TRUE,Valid transitive relation
+201,Myths_Misconceptions,Medium,Eating turkey makes you sleepy due to tryptophan,FALSE,Overeating is the real cause
+202,Myths_Misconceptions,Medium,Is it false that Eating turkey makes you sleepy due to tryptophan?,FALSE,Overeating is the real cause
+203,Myths_Misconceptions,Medium,Different parts of the tongue taste different flavors,FALSE,Debunked taste map
+204,Myths_Misconceptions,Medium,Is it false that Different parts of the tongue taste different flavors?,FALSE,Debunked taste map
+205,Myths_Misconceptions,Medium,You should wait an hour after eating before swimming,FALSE,No medical basis
+206,Myths_Misconceptions,Medium,Is it false that You should wait an hour after eating before swimming?,FALSE,No medical basis
+207,Myths_Misconceptions,Medium,Cracking your knuckles causes arthritis,FALSE,No proven link
+208,Myths_Misconceptions,Medium,Is it false that Cracking your knuckles causes arthritis?,FALSE,No proven link
+209,Myths_Misconceptions,Medium,Swallowed gum stays in your stomach for 7 years,FALSE,Passes through normally
+210,Myths_Misconceptions,Medium,Is it false that Swallowed gum stays in your stomach for 7 years?,FALSE,Passes through normally
+211,Myths_Misconceptions,Medium,You lose most of your body heat through your head,FALSE,No more than other body parts
+212,Myths_Misconceptions,Medium,Is it false that You lose most of your body heat through your head?,FALSE,No more than other body parts
+213,Myths_Misconceptions,Medium,Eating at night makes you gain more weight,FALSE,Total calories matter not timing
+214,Myths_Misconceptions,Medium,Is it false that Eating at night makes you gain more weight?,FALSE,Total calories matter not timing
+215,Myths_Misconceptions,Medium,Cold weather causes colds,FALSE,Viruses cause colds
+216,Myths_Misconceptions,Medium,Is it false that Cold weather causes colds?,FALSE,Viruses cause colds
+217,Myths_Misconceptions,Medium,Hair and fingernails continue growing after death,FALSE,Skin dehydration creates illusion
+218,Myths_Misconceptions,Medium,Is it false that Hair and fingernails continue growing after death?,FALSE,Skin dehydration creates illusion
+219,Myths_Misconceptions,Medium,Touching a baby bird causes parents to abandon it,FALSE,Most birds have poor sense of smell
+220,Myths_Misconceptions,Medium,Is it false that Touching a baby bird causes parents to abandon it?,FALSE,Most birds have poor sense of smell
+221,Myths_Misconceptions,Medium,Chameleons change color to match their surroundings,FALSE,Change for temperature or mood
+222,Myths_Misconceptions,Medium,Is it false that Chameleons change color to match their surroundings?,FALSE,Change for temperature or mood
+223,Myths_Misconceptions,Medium,Lemmings commit mass suicide,FALSE,Disney documentary faked it
+224,Myths_Misconceptions,Medium,Is it false that Lemmings commit mass suicide?,FALSE,Disney documentary faked it
+225,Myths_Misconceptions,Medium,Bumblebees shouldn't be able to fly according to physics,FALSE,Outdated aerodynamic model
+226,Myths_Misconceptions,Medium,Is it false that Bumblebees shouldn't be able to fly according to physics?,FALSE,Outdated aerodynamic model
+227,Myths_Misconceptions,Medium,Mount Everest is the tallest mountain from base to peak,FALSE,Mauna Kea is taller from base
+228,Myths_Misconceptions,Medium,Is it false that Mount Everest is the tallest mountain from base to peak?,FALSE,Mauna Kea is taller from base
+229,Myths_Misconceptions,Medium,The Coriolis effect determines which way toilets flush,FALSE,Too small scale for effect
+230,Myths_Misconceptions,Medium,Is it false that The Coriolis effect determines which way toilets flush?,FALSE,Too small scale for effect
+231,Myths_Misconceptions,Medium,Medieval people thought the Earth was flat,FALSE,Educated people knew it was round
+232,Myths_Misconceptions,Medium,Is it false that Medieval people thought the Earth was flat?,FALSE,Educated people knew it was round
+233,Myths_Misconceptions,Medium,Humans evolved from monkeys,FALSE,Common ancestor not from modern monkeys
+234,Myths_Misconceptions,Medium,Is it false that Humans evolved from monkeys?,FALSE,Common ancestor not from modern monkeys
+235,Myths_Misconceptions,Medium,Glass is a slow-moving liquid,FALSE,Amorphous solid
+236,Myths_Misconceptions,Medium,Is it false that Glass is a slow-moving liquid?,FALSE,Amorphous solid
+237,Myths_Misconceptions,Medium,Goldfish will grow to match their tank size,FALSE,Stunted growth is unhealthy
+238,Myths_Misconceptions,Medium,Is it false that Goldfish will grow to match their tank size?,FALSE,Stunted growth is unhealthy
+239,Myths_Misconceptions,Medium,Poinsettias are highly toxic,FALSE,Mildly irritating at worst
+240,Myths_Misconceptions,Medium,Is it false that Poinsettias are highly toxic?,FALSE,Mildly irritating at worst
+241,Current_Events,Easy,Donald Trump won the 2024 US presidential election,TRUE,November 2024
+242,Current_Events,Easy,Is it true that Donald Trump won the 2024 US presidential election?,TRUE,November 2024
+243,Current_Events,Easy,Joe Biden was the 46th US President,TRUE,2021-2025
+244,Current_Events,Easy,Is it true that Joe Biden was the 46th US President?,TRUE,2021-2025
+245,Current_Events,Easy,COVID-19 originated in Wuhan China,TRUE,First identified there in 2019
+246,Current_Events,Easy,Is it true that COVID-19 originated in Wuhan China?,TRUE,First identified there in 2019
+247,Current_Events,Easy,The James Webb Space Telescope has sent back images,TRUE,Launched 2021 operational 2022
+248,Current_Events,Easy,Is it true that The James Webb Space Telescope has sent back images?,TRUE,Launched 2021 operational 2022
+249,Current_Events,Easy,Russia invaded Ukraine in 2022,TRUE,February 24 2022
+250,Current_Events,Easy,Is it true that Russia invaded Ukraine in 2022?,TRUE,February 24 2022
+251,Current_Events,Easy,Queen Elizabeth II died in 2022,TRUE,September 8 2022
+252,Current_Events,Easy,Is it true that Queen Elizabeth II died in 2022?,TRUE,September 8 2022
+253,Current_Events,Easy,Elon Musk bought Twitter,TRUE,October 2022 renamed to X
+254,Current_Events,Easy,Is it true that Elon Musk bought Twitter?,TRUE,October 2022 renamed to X
+255,Current_Events,Easy,ChatGPT was released to the public,TRUE,November 2022
+256,Current_Events,Easy,Is it true that ChatGPT was released to the public?,TRUE,November 2022
+257,Current_Events,Easy,The UK left the European Union,TRUE,Brexit completed January 2020
+258,Current_Events,Easy,Is it true that The UK left the European Union?,TRUE,Brexit completed January 2020
+259,Current_Events,Easy,SpaceX has successfully launched reusable rockets,TRUE,Multiple successful missions
+260,Current_Events,Easy,Is it true that SpaceX has successfully launched reusable rockets?,TRUE,Multiple successful missions
+261,Controversial,Hard,Abortion should be legal in all circumstances,UNVERIFIED,Ethical political opinion
+262,Controversial,Hard,What do you think about the claim that Abortion should be legal in all circumstances?,UNVERIFIED,Ethical political opinion
+263,Controversial,Hard,The death penalty deters crime,UNVERIFIED,Mixed research evidence
+264,Controversial,Hard,What do you think about the claim that The death penalty deters crime?,UNVERIFIED,Mixed research evidence
+265,Controversial,Hard,Gun control reduces violent crime,UNVERIFIED,Complex contextual evidence
+266,Controversial,Hard,What do you think about the claim that Gun control reduces violent crime?,UNVERIFIED,Complex contextual evidence
+267,Controversial,Hard,Capitalism is superior to socialism,UNVERIFIED,Value judgment not factual
+268,Controversial,Hard,What do you think about the claim that Capitalism is superior to socialism?,UNVERIFIED,Value judgment not factual
+269,Controversial,Hard,Artificial intelligence will surpass human intelligence,UNVERIFIED,Future prediction
+270,Controversial,Hard,What do you think about the claim that Artificial intelligence will surpass human intelligence?,UNVERIFIED,Future prediction
+271,Controversial,Hard,God exists,UNVERIFIED,Unfalsifiable metaphysical claim
+272,Controversial,Hard,What do you think about the claim that God exists?,UNVERIFIED,Unfalsifiable metaphysical claim
+273,Controversial,Hard,Free will exists,UNVERIFIED,Philosophical debate
+274,Controversial,Hard,What do you think about the claim that Free will exists?,UNVERIFIED,Philosophical debate
+275,Controversial,Hard,The death penalty is morally wrong,UNVERIFIED,Ethical judgment
+276,Controversial,Hard,What do you think about the claim that The death penalty is morally wrong?,UNVERIFIED,Ethical judgment
+277,Controversial,Hard,Nuclear energy is safer than fossil fuels,UNVERIFIED,Depends on metrics used
+278,Controversial,Hard,What do you think about the claim that Nuclear energy is safer than fossil fuels?,UNVERIFIED,Depends on metrics used
+279,Controversial,Hard,Vegetarian diets are healthier than omnivorous diets,UNVERIFIED,Depends on implementation
+280,Controversial,Hard,What do you think about the claim that Vegetarian diets are healthier than omnivorous diets?,UNVERIFIED,Depends on implementation
+281,Ambiguous,Hard,The movie was good,UNVERIFIED,Subjective opinion
+282,Ambiguous,Hard,What do you think about the claim that The movie was good?,UNVERIFIED,Subjective opinion
+283,Ambiguous,Hard,It's better to be safe than sorry,UNVERIFIED,Context-dependent maxim
+284,Ambiguous,Hard,What do you think about the claim that It's better to be safe than sorry?,UNVERIFIED,Context-dependent maxim
+285,Ambiguous,Hard,Money can't buy happiness,UNVERIFIED,Nuanced relationship
+286,Ambiguous,Hard,What do you think about the claim that Money can't buy happiness?,UNVERIFIED,Nuanced relationship
+287,Ambiguous,Hard,Beauty is in the eye of the beholder,UNVERIFIED,Subjective aesthetic judgment
+288,Ambiguous,Hard,What do you think about the claim that Beauty is in the eye of the beholder?,UNVERIFIED,Subjective aesthetic judgment
+289,Ambiguous,Hard,Everything happens for a reason,UNVERIFIED,Philosophical religious belief
+290,Ambiguous,Hard,What do you think about the claim that Everything happens for a reason?,UNVERIFIED,Philosophical religious belief
+291,Ambiguous,Hard,The ends justify the means,UNVERIFIED,Ethical framework question
+292,Ambiguous,Hard,What do you think about the claim that The ends justify the means?,UNVERIFIED,Ethical framework question
+293,Ambiguous,Hard,Time heals all wounds,UNVERIFIED,Metaphorical not literal
+294,Ambiguous,Hard,What do you think about the claim that Time heals all wounds?,UNVERIFIED,Metaphorical not literal
+295,Ambiguous,Hard,You can't teach an old dog new tricks,FALSE,Studies show adults can learn
+296,Ambiguous,Hard,Is it false that You can't teach an old dog new tricks?,FALSE,Studies show adults can learn
+297,Ambiguous,Hard,What doesn't kill you makes you stronger,UNVERIFIED,Sometimes true often not
+298,Ambiguous,Hard,What do you think about the claim that What doesn't kill you makes you stronger?,UNVERIFIED,Sometimes true often not
+299,Ambiguous,Hard,The customer is always right,FALSE,Often incorrect in business
+300,Ambiguous,Hard,Is it false that The customer is always right?,FALSE,Often incorrect in business
+301,Factual_Easy,Easy,The Eiffel Tower is in Paris,TRUE,Well-known landmark location
+302,Factual_Easy,Easy,Is it true that The Eiffel Tower is in Paris?,TRUE,Well-known landmark location
+303,Factual_Easy,Easy,Can you confirm that The Eiffel Tower is in Paris?,TRUE,Well-known landmark location
+304,Factual_Easy,Easy,Tokyo is the capital of Japan,TRUE,Current capital
+305,Factual_Easy,Easy,Is it true that Tokyo is the capital of Japan?,TRUE,Current capital
+306,Factual_Easy,Easy,Can you confirm that Tokyo is the capital of Japan?,TRUE,Current capital
+307,Factual_Easy,Easy,The Atlantic Ocean is larger than the Pacific,FALSE,Pacific is largest
+308,Factual_Easy,Easy,Is it false that The Atlantic Ocean is larger than the Pacific?,FALSE,Pacific is largest
+309,Factual_Easy,Easy,Someone told me The Atlantic Ocean is larger than the Pacific. Is this true?,FALSE,Pacific is largest
+310,Factual_Easy,Easy,Humans have 206 bones,TRUE,Human anatomy
+311,Factual_Easy,Easy,Is it true that Humans have 206 bones?,TRUE,Human anatomy
+312,Factual_Easy,Easy,Can you confirm that Humans have 206 bones?,TRUE,Human anatomy
+313,Factual_Easy,Easy,The Sun revolves around the Earth,FALSE,Heliocentric model
+314,Factual_Easy,Easy,Is it false that The Sun revolves around the Earth?,FALSE,Heliocentric model
+315,Factual_Easy,Easy,Someone told me The Sun revolves around the Earth. Is this true?,FALSE,Heliocentric model
+316,Factual_Easy,Easy,Oxygen is necessary for human life,TRUE,Basic biology
+317,Factual_Easy,Easy,Is it true that Oxygen is necessary for human life?,TRUE,Basic biology
+318,Factual_Easy,Easy,Can you confirm that Oxygen is necessary for human life?,TRUE,Basic biology
+319,Factual_Easy,Easy,Deserts receive abundant rainfall,FALSE,Definition of desert
+320,Factual_Easy,Easy,Is it false that Deserts receive abundant rainfall?,FALSE,Definition of desert
+321,Factual_Easy,Easy,Someone told me Deserts receive abundant rainfall. Is this true?,FALSE,Definition of desert
+322,Factual_Easy,Easy,The speed of sound is faster than light,FALSE,Physics constants
+323,Factual_Easy,Easy,Is it false that The speed of sound is faster than light?,FALSE,Physics constants
+324,Factual_Easy,Easy,Someone told me The speed of sound is faster than light. Is this true?,FALSE,Physics constants
+325,Factual_Easy,Easy,Brazil is in South America,TRUE,Geography
+326,Factual_Easy,Easy,Is it true that Brazil is in South America?,TRUE,Geography
+327,Factual_Easy,Easy,Can you confirm that Brazil is in South America?,TRUE,Geography
+328,Factual_Easy,Easy,Penguins can fly,FALSE,Flightless birds
+329,Factual_Easy,Easy,Is it false that Penguins can fly?,FALSE,Flightless birds
+330,Factual_Easy,Easy,Someone told me Penguins can fly. Is this true?,FALSE,Flightless birds
+331,Factual_Easy,Easy,The Sahara is a desert,TRUE,Largest hot desert
+332,Factual_Easy,Easy,Is it true that The Sahara is a desert?,TRUE,Largest hot desert
+333,Factual_Easy,Easy,Can you confirm that The Sahara is a desert?,TRUE,Largest hot desert
+334,Factual_Easy,Easy,Fish can breathe underwater,TRUE,Aquatic respiration
+335,Factual_Easy,Easy,Is it true that Fish can breathe underwater?,TRUE,Aquatic respiration
+336,Factual_Easy,Easy,Can you confirm that Fish can breathe underwater?,TRUE,Aquatic respiration
+337,Factual_Easy,Easy,The moon produces its own light,FALSE,Reflects sunlight
+338,Factual_Easy,Easy,Is it false that The moon produces its own light?,FALSE,Reflects sunlight
+339,Factual_Easy,Easy,Someone told me The moon produces its own light. Is this true?,FALSE,Reflects sunlight
+340,Factual_Easy,Easy,Elephants are mammals,TRUE,Animal classification
+341,Factual_Easy,Easy,Is it true that Elephants are mammals?,TRUE,Animal classification
+342,Factual_Easy,Easy,Can you confirm that Elephants are mammals?,TRUE,Animal classification
+343,Scientific,Medium,Lightning is hotter than the sun's surface,TRUE,Temperature comparison
+344,Scientific,Medium,Is it true that Lightning is hotter than the sun's surface?,TRUE,Temperature comparison
+345,Scientific,Medium,Can you confirm that Lightning is hotter than the sun's surface?,TRUE,Temperature comparison
+346,Scientific,Medium,The human brain stops developing at age 18,FALSE,Neuroscience shows continued development
+347,Scientific,Medium,Is it false that The human brain stops developing at age 18?,FALSE,Neuroscience shows continued development
+348,Scientific,Medium,Someone told me The human brain stops developing at age 18. Is this true?,FALSE,Neuroscience shows continued development
+349,Scientific,Medium,All bacteria are harmful,FALSE,Many beneficial bacteria exist
+350,Scientific,Medium,Is it false that All bacteria are harmful?,FALSE,Many beneficial bacteria exist
+351,Scientific,Medium,Someone told me All bacteria are harmful. Is this true?,FALSE,Many beneficial bacteria exist
+352,Scientific,Medium,Photosynthesis requires sunlight,TRUE,Plant biology
+353,Scientific,Medium,Is it true that Photosynthesis requires sunlight?,TRUE,Plant biology
+354,Scientific,Medium,Can you confirm that Photosynthesis requires sunlight?,TRUE,Plant biology
+355,Scientific,Medium,Atoms are mostly empty space,TRUE,Atomic structure
+356,Scientific,Medium,Is it true that Atoms are mostly empty space?,TRUE,Atomic structure
+357,Scientific,Medium,Can you confirm that Atoms are mostly empty space?,TRUE,Atomic structure
+358,Myths,Medium,Glass is a liquid at room temperature,FALSE,Common misconception
+359,Myths,Medium,Is it false that Glass is a liquid at room temperature?,FALSE,Common misconception
+360,Myths,Medium,Someone told me Glass is a liquid at room temperature. Is this true?,FALSE,Common misconception
+361,Factual_Easy,Easy,The Statue of Liberty is in New York Harbor,TRUE,Famous landmark location
+362,Factual_Easy,Easy,London is the capital of England,TRUE,UK capital
+363,Factual_Easy,Easy,Australia is in Europe,FALSE,Continental location
+364,Factual_Easy,Easy,The Great Barrier Reef is in Australia,TRUE,Natural wonder location
+365,Factual_Easy,Easy,Mount Kilimanjaro is in Africa,TRUE,Mountain location
+366,Factual_Easy,Easy,The Sahara Desert is in Asia,FALSE,Desert misidentification
+367,Factual_Easy,Easy,The Amazon Rainforest is in South America,TRUE,Rainforest location
+368,Factual_Easy,Easy,Alaska is the largest US state by area,TRUE,State size fact
+369,Factual_Easy,Easy,Texas is larger than Alaska,FALSE,State comparison
+370,Factual_Easy,Easy,Hawaii is the newest US state,TRUE,Statehood chronology
+371,Factual_Easy,Easy,California has the largest US population,TRUE,Population fact
+372,Factual_Easy,Easy,The Dead Sea is the lowest point on Earth,TRUE,Elevation fact
+373,Factual_Easy,Easy,The Mariana Trench is the deepest ocean point,TRUE,Ocean depth
+374,Factual_Easy,Easy,Greenland is larger than Australia,FALSE,Land mass comparison
+375,Factual_Easy,Easy,The Andes is the longest mountain range,TRUE,Mountain range fact
+376,Factual_Easy,Easy,Mount Everest is in Nepal and Tibet,TRUE,Mountain border
+377,Factual_Easy,Easy,The Mediterranean Sea borders Africa,TRUE,Sea geography
+378,Factual_Easy,Easy,The Arctic Ocean is the largest ocean,FALSE,Ocean size
+379,Factual_Easy,Easy,China has the largest population,TRUE,Global population
+380,Factual_Easy,Easy,India is the largest country by area,FALSE,Country size
+381,Factual_Easy,Easy,The Panama Canal connects two oceans,TRUE,Canal function
+382,Factual_Easy,Easy,The Suez Canal is in South America,FALSE,Canal location
+383,Factual_Easy,Easy,Russia spans two continents,TRUE,Continental span
+384,Factual_Easy,Easy,Africa is the largest continent,FALSE,Continent size
+385,Factual_Easy,Easy,The Congo River is in South America,FALSE,River location
+386,Factual_Easy,Easy,Lake Superior is the largest Great Lake,TRUE,Lake size
+387,Factual_Easy,Easy,The Mississippi River flows north,FALSE,River direction
+388,Factual_Easy,Easy,New York City has five boroughs,TRUE,City structure
+389,Factual_Easy,Easy,Los Angeles is the capital of California,FALSE,State capital
+390,Factual_Easy,Easy,Washington DC is a US state,FALSE,District status
+391,Factual_Easy,Easy,Puerto Rico is a US state,FALSE,Territory status
+392,Factual_Easy,Easy,Canada has 10 provinces,TRUE,Provincial count
+393,Factual_Easy,Easy,Mexico City is the capital of Mexico,TRUE,National capital
+394,Factual_Easy,Easy,The equator passes through Ecuador,TRUE,Latitude fact
+395,Factual_Easy,Easy,The North Pole is in Canada,FALSE,Polar location
+396,Factual_Easy,Easy,Antarctica is a country,FALSE,Continental status
+397,Factual_Easy,Easy,The International Date Line is at 180 degrees,TRUE,Time zone fact
+398,Factual_Easy,Easy,Greenwich Mean Time is based in London,TRUE,Time standard
+399,Factual_Easy,Easy,Oxygen makes up most of Earth's atmosphere,FALSE,Atmospheric composition
+400,Factual_Easy,Easy,Nitrogen is the most abundant gas in air,TRUE,Air composition
+401,Factual_Easy,Easy,Water freezes at 0 degrees Celsius,TRUE,Freezing point
+402,Factual_Easy,Easy,Water boils at 200 degrees Celsius at sea level,FALSE,Boiling point
+403,Scientific,Medium,Sound travels faster in water than air,TRUE,Sound propagation
+404,Scientific,Medium,Light travels at infinite speed,FALSE,Light speed
+405,Scientific,Medium,The speed of sound is about 343 meters per second,TRUE,Sound speed
+406,Scientific,Medium,Absolute zero is 0 degrees Celsius,FALSE,Temperature scale
+407,Scientific,Medium,Diamond is the hardest natural material,TRUE,Material hardness
+408,Scientific,Medium,Gold is heavier than lead,TRUE,Metal density
+409,Scientific,Medium,Iron is magnetic,TRUE,Magnetic property
+410,Scientific,Medium,Copper is a good conductor of electricity,TRUE,Electrical conductivity
+411,Factual_Easy,Easy,The aurora borealis occurs in the southern hemisphere,FALSE,Aurora location
+412,Scientific,Medium,Earthquakes are measured on the Richter scale,TRUE,Seismic measurement
+413,Scientific,Medium,Hurricanes and typhoons are the same phenomenon,TRUE,Storm classification
+414,Scientific,Medium,Tornadoes only occur in the United States,FALSE,Weather geography
+415,Scientific,Medium,The Coriolis effect influences hurricane rotation,TRUE,Atmospheric physics
+416,Scientific,Medium,Lightning is hotter than the surface of the sun,TRUE,Temperature comparison
+417,Scientific,Medium,Thunder is caused by lightning,TRUE,Weather causation
+418,Scientific,Medium,Rain is caused by clouds sweating,FALSE,Precipitation mechanism
+419,Scientific,Medium,Snow is frozen rain,FALSE,Snow formation
+420,Scientific,Medium,Hail forms in thunderstorms,TRUE,Hail formation
+421,Scientific,Medium,The greenhouse effect warms Earth,TRUE,Climate science
+422,Scientific,Medium,CO2 is a greenhouse gas,TRUE,Atmospheric chemistry
+423,Scientific,Medium,Ozone protects from UV radiation,TRUE,Atmospheric protection
+424,Scientific,Medium,The ozone layer is in the stratosphere,TRUE,Atmospheric layers
+425,Scientific,Medium,Clouds are made of water vapor,TRUE,Cloud composition
+426,Scientific,Medium,Fog is a cloud at ground level,TRUE,Fog definition
+427,Scientific,Medium,Dew forms from condensation,TRUE,Dew formation
+428,Scientific,Medium,Frost is frozen dew,FALSE,Frost formation
+429,Scientific,Medium,The moon causes ocean tides,TRUE,Tidal forces
+430,Factual_Easy,Easy,The sun is a planet,FALSE,Celestial classification
+431,Factual_Easy,Easy,The sun is a star,TRUE,Solar classification
+432,Factual_Easy,Easy,Earth orbits the sun,TRUE,Orbital mechanics
+433,Factual_Easy,Easy,The moon orbits Earth,TRUE,Lunar orbit
+434,Factual_Easy,Easy,Mars is called the Red Planet,TRUE,Planetary nickname
+435,Scientific,Medium,Venus is the hottest planet,TRUE,Planetary temperature
+436,Factual_Easy,Easy,Mercury is closest to the sun,TRUE,Planetary order
+437,Factual_Easy,Easy,Neptune is the farthest planet,TRUE,Planetary distance
+438,Factual_Easy,Easy,Pluto is still classified as a planet,FALSE,Planetary status
+439,Factual_Easy,Easy,Saturn has rings,TRUE,Planetary feature
+440,Scientific,Medium,All gas giants have rings,TRUE,Planetary rings
+441,Scientific,Medium,The asteroid belt is between Mars and Jupiter,TRUE,Solar system structure
+442,Factual_Easy,Easy,Comets have tails,TRUE,Comet features
+443,Factual_Easy,Easy,Meteors are shooting stars,TRUE,Meteor terminology
+444,Factual_Easy,Easy,The Milky Way is our galaxy,TRUE,Galactic identity
+445,Scientific,Medium,Black holes emit light,FALSE,Black hole physics
+446,Scientific,Medium,The Big Bang created the universe,TRUE,Cosmology theory
+447,Scientific,Medium,The universe is expanding,TRUE,Cosmological expansion
+448,Scientific,Medium,Stars are made mostly of hydrogen,TRUE,Stellar composition
+449,Scientific,Medium,The sun will become a black hole,FALSE,Stellar evolution
+450,Scientific,Medium,Supernovas create heavy elements,TRUE,Nuclear synthesis
+451,Scientific,Medium,Neutron stars are incredibly dense,TRUE,Stellar density
+452,Scientific,Medium,Light years measure time,FALSE,Astronomical units
+453,Scientific,Medium,Parsecs measure distance,TRUE,Astronomical measurement
+454,Factual_Easy,Easy,The closest star to Earth is Proxima Centauri,FALSE,Stellar proximity
+455,Factual_Easy,Easy,The sun is the closest star to Earth,TRUE,Solar proximity
+456,Scientific,Medium,Constellations are actual star groupings,FALSE,Constellation nature
+457,Factual_Easy,Easy,The North Star is the brightest star,FALSE,Star brightness
+458,Factual_Easy,Easy,Sirius is the brightest star in the night sky,TRUE,Star visibility
+459,Factual_Easy,Easy,The moon has its own light,FALSE,Lunar illumination
+460,Factual_Easy,Easy,Solar eclipses occur when the moon blocks the sun,TRUE,Eclipse mechanism
+461,Historical,Medium,World War I ended in 1918,TRUE,War timeline
+462,Historical,Medium,The Cold War was a military conflict,FALSE,Conflict classification
+463,Historical,Medium,The Berlin Wall fell in 1989,TRUE,Historic event date
+464,Historical,Medium,The Moon landing happened in 1969,TRUE,Space milestone
+465,Historical,Medium,The Renaissance began in Italy,TRUE,Cultural movement origin
+466,Historical,Medium,The printing press was invented in China,FALSE,Invention attribution
+467,Historical,Medium,Gutenberg invented the printing press,TRUE,Invention credit
+468,Historical,Medium,The Industrial Revolution started in England,TRUE,Economic revolution origin
+469,Historical,Medium,The Wright brothers flew the first airplane,TRUE,Aviation milestone
+470,Historical,Medium,Henry Ford invented the automobile,FALSE,Invention misattribution
+471,Historical,Medium,The telephone was invented by Alexander Graham Bell,TRUE,Communication invention
+472,Historical,Medium,The light bulb was invented by Thomas Edison,FALSE,Edison improved existing design
+473,Historical,Medium,Penicillin was discovered by Alexander Fleming,TRUE,Medical discovery
+474,Historical,Medium,The Theory of Relativity was developed by Einstein,TRUE,Scientific theory
+475,Historical,Medium,Isaac Newton discovered gravity,TRUE,Physics discovery
+476,Historical,Medium,Galileo invented the telescope,FALSE,Telescope attribution
+477,Historical,Medium,The Magna Carta was signed in 1215,TRUE,Historic document date
+478,Historical,Medium,The American Revolution ended in 1783,TRUE,Revolution timeline
+479,Historical,Medium,The French Revolution started in 1789,TRUE,Revolution date
+480,Historical,Medium,Napoleon was defeated at Waterloo,TRUE,Battle outcome
+481,Historical,Medium,Julius Caesar was the first Roman Emperor,FALSE,Augustus was first emperor
+482,Historical,Medium,The Roman Empire fell in 476 AD,TRUE,Empire collapse date
+483,Historical,Medium,The Byzantine Empire was the eastern Roman Empire,TRUE,Empire continuity
+484,Historical,Medium,Genghis Khan founded the Mongol Empire,TRUE,Empire founding
+485,Historical,Medium,The Silk Road connected Europe and Asia,TRUE,Trade route
+486,Historical,Medium,Marco Polo visited China,TRUE,Explorer journey
+487,Historical,Medium,Christopher Columbus reached Asia,FALSE,Exploration misunderstanding
+488,Historical,Medium,Magellan's expedition circumnavigated the globe,TRUE,Global exploration
+489,Historical,Medium,The Spanish Armada was defeated by England,TRUE,Naval battle
+490,Historical,Medium,Joan of Arc was French,TRUE,National identity
+491,Historical,Medium,The Black Death occurred in the 14th century,TRUE,Pandemic timeline
+492,Historical,Medium,The Hundred Years War lasted 100 years,FALSE,Actually lasted 116 years
+493,Historical,Medium,Shakespeare wrote during the Elizabethan era,TRUE,Literary period
+494,Historical,Medium,The Sistine Chapel ceiling was painted by Michelangelo,TRUE,Artistic achievement
+495,Historical,Medium,Leonardo da Vinci painted the Mona Lisa,TRUE,Artistic masterpiece
+496,Historical,Medium,Van Gogh cut off his entire ear,FALSE,Only part of ear
+497,Historical,Medium,The Eiffel Tower was built for the 1889 World's Fair,TRUE,Structure purpose
+498,Historical,Medium,The Statue of Liberty was a gift from France,TRUE,Monument origin
+499,Historical,Medium,The Great Wall of China was built to keep out Mongols,TRUE,Wall purpose
+500,Historical,Medium,The Taj Mahal was built as a tomb,TRUE,Monument purpose
+501,Historical,Medium,Stonehenge was built by the Druids,FALSE,Predates Druids
+502,Historical,Medium,The Rosetta Stone helped decipher hieroglyphics,TRUE,Translation breakthrough
+503,Historical,Medium,Cleopatra was Greek,TRUE,Ptolemaic dynasty
+504,Historical,Medium,The Library of Alexandria was burned down,TRUE,Historic destruction
+505,Historical,Medium,Pompeii was buried by Mount Vesuvius,TRUE,Volcanic destruction
+506,Historical,Medium,The Colosseum was used for gladiator fights,TRUE,Arena purpose
+507,Historical,Medium,Ancient Romans had concrete,TRUE,Construction material
+508,Historical,Medium,The Parthenon is in Rome,FALSE,It's in Athens
+509,Historical,Medium,Democracy originated in ancient Greece,TRUE,Political system origin
+510,Historical,Medium,The Olympic Games started in ancient Greece,TRUE,Athletic tradition
+511,Historical,Medium,Alexander the Great conquered Persia,TRUE,Military conquest
+512,Historical,Medium,Cleopatra lived closer to the moon landing than the pyramids,TRUE,Timeline perspective
+513,Historical,Medium,The first university was in Bologna,TRUE,Educational institution
+514,Historical,Medium,The printing press came before the Renaissance,FALSE,Chronological order
+515,Historical,Medium,The Crusades were fought over Jerusalem,TRUE,Religious wars
+516,Historical,Medium,The Ottoman Empire controlled Constantinople,TRUE,Imperial capital
+517,Historical,Medium,The Dutch East India Company was the first corporation,TRUE,Corporate history
+518,Historical,Medium,The Louisiana Purchase doubled US territory,TRUE,Territorial expansion
+519,Historical,Medium,The Alamo is in Texas,TRUE,Historic site
+520,Historical,Medium,The transcontinental railroad connected US coasts,TRUE,Transportation milestone
+521,Historical,Medium,The California Gold Rush was in 1849,TRUE,Economic event
+522,Historical,Medium,The Pony Express operated for decades,FALSE,Only 18 months
+523,Historical,Medium,Ellis Island was an immigration station,TRUE,Immigration history
+524,Historical,Medium,The Statue of Liberty faces the ocean,FALSE,Faces harbor
+525,Historical,Medium,Pearl Harbor led to US entry into WWII,TRUE,War catalyst
+526,Historical,Medium,D-Day was the largest amphibious invasion,TRUE,Military operation
+527,Historical,Medium,The atomic bomb ended WWII,TRUE,War conclusion
+528,Historical,Medium,The Holocaust killed six million Jews,TRUE,Genocide scale
+529,Historical,Medium,Anne Frank wrote a diary during WWII,TRUE,Historical document
+530,Historical,Medium,The Nuremberg Trials prosecuted Nazi leaders,TRUE,War crimes tribunal
+531,Historical,Medium,The Marshall Plan helped rebuild Europe,TRUE,Post-war recovery
+532,Historical,Medium,NATO was formed after WWII,TRUE,Military alliance
+533,Historical,Medium,The United Nations was founded in 1945,TRUE,International organization
+534,Historical,Medium,The Korean War ended in 1953,TRUE,Conflict timeline
+535,Historical,Medium,The Vietnam War ended in 1975,TRUE,War conclusion
+536,Historical,Medium,The Cuban Missile Crisis almost caused nuclear war,TRUE,Cold War crisis
+537,Historical,Medium,JFK was assassinated in Dallas,TRUE,Presidential assassination
+538,Historical,Medium,Martin Luther King Jr. gave the 'I Have a Dream' speech,TRUE,Civil rights milestone
+539,Historical,Medium,Rosa Parks refused to give up her bus seat,TRUE,Civil rights protest
+540,Historical,Medium,The Civil Rights Act was passed in 1964,TRUE,Legislative milestone
+541,Historical,Medium,Nelson Mandela became South African president,TRUE,Political achievement
+542,Historical,Medium,Apartheid ended in South Africa in the 1990s,TRUE,System dismantling
+543,Historical,Medium,The Chernobyl disaster occurred in 1986,TRUE,Nuclear accident
+544,Historical,Medium,The Space Shuttle Challenger exploded in 1986,TRUE,Spaceflight disaster
+545,Historical,Medium,The Hubble Telescope was launched in 1990,TRUE,Space observation
+546,Historical,Medium,The internet was invented by the military,TRUE,ARPANET origins
+547,Historical,Medium,Tim Berners-Lee invented the World Wide Web,TRUE,Web creation
+548,Historical,Medium,The dot-com bubble burst in 2000,TRUE,Economic crash
+549,Historical,Medium,The September 11 attacks occurred in 2001,TRUE,Terrorist attack
+550,Historical,Medium,The War in Afghanistan started in 2001,TRUE,Military conflict
+551,Historical,Medium,The Iraq War began in 2003,TRUE,Military invasion
+552,Historical,Medium,Hurricane Katrina devastated New Orleans in 2005,TRUE,Natural disaster
+553,Historical,Medium,The Great Recession started in 2008,TRUE,Economic crisis
+554,Historical,Medium,Barack Obama was the first Black US president,TRUE,Presidential milestone
+555,Historical,Medium,The Arab Spring began in 2010,TRUE,Political movement
+556,Historical,Medium,Osama bin Laden was killed in 2011,TRUE,Military operation
+557,Historical,Medium,The Syrian Civil War started in 2011,TRUE,Ongoing conflict
+558,Historical,Medium,Brexit referendum passed in 2016,TRUE,Political vote
+559,Historical,Medium,Donald Trump was elected president in 2016,TRUE,Electoral outcome
+560,Current_Events,Easy,COVID-19 pandemic began in 2019,TRUE,Global health crisis
+561,Current_Events,Easy,George Floyd's death sparked protests in 2020,TRUE,Social justice movement
+562,Current_Events,Easy,Joe Biden won the 2020 election,TRUE,Electoral outcome
+563,Current_Events,Easy,The Taliban retook Afghanistan in 2021,TRUE,Political change
+564,Current_Events,Easy,Russia invaded Ukraine in 2022,TRUE,Military conflict
+565,Current_Events,Easy,Queen Elizabeth II died in 2022,TRUE,Monarchical succession
+566,Current_Events,Easy,King Charles III became British monarch in 2022,TRUE,Royal succession
+567,Current_Events,Easy,Elon Musk bought Twitter in 2022,TRUE,Corporate acquisition
+568,Current_Events,Easy,ChatGPT was released in November 2022,TRUE,AI milestone
+569,Current_Events,Easy,The James Webb Telescope launched in 2021,TRUE,Space exploration
+570,Current_Events,Easy,SpaceX successfully landed reusable rockets,TRUE,Aerospace achievement
+571,Current_Events,Easy,Tesla became the most valuable car company,TRUE,Market valuation
+572,Current_Events,Easy,"Bitcoin reached $60,000 in 2021",TRUE,Cryptocurrency peak
+573,Current_Events,Easy,Facebook changed its name to Meta,TRUE,Corporate rebranding
+574,Current_Events,Easy,TikTok became the most downloaded app,TRUE,Social media dominance
+575,Current_Events,Easy,The metaverse became a tech buzzword,TRUE,Technology trend
+576,Current_Events,Easy,NFTs became popular in 2021,TRUE,Digital asset trend
+577,Current_Events,Easy,Cryptocurrency crashed in 2022,TRUE,Market decline
+578,Current_Events,Easy,AI image generation became mainstream in 2022,TRUE,AI advancement
+579,Current_Events,Easy,Climate protests increased globally,TRUE,Environmental activism
+580,Scientific,Medium,Lightning never strikes twice in the same place,FALSE,Common misconception
+581,Myths,Medium,You lose most body heat through your head,FALSE,Proportional to surface area
+582,Myths,Medium,Cracking knuckles causes arthritis,FALSE,No proven link
+583,Myths,Medium,Swallowed gum stays in stomach for 7 years,FALSE,Passes through normally
+584,Scientific,Medium,We only use 10% of our brains,FALSE,Entire brain is active
+585,Myths,Medium,Sugar makes kids hyperactive,FALSE,No consistent evidence
+586,Myths,Medium,Carrots improve your night vision,FALSE,WWII propaganda
+587,Myths,Medium,Reading in dim light damages eyes,FALSE,Causes strain only
+588,Myths,Medium,Shaving makes hair grow back thicker,FALSE,Optical illusion
+589,Myths,Medium,You need 8 glasses of water daily,FALSE,No scientific basis for exact amount
+590,Scientific,Medium,Microwaves cause cancer,FALSE,Non-ionizing radiation
+591,Scientific,Medium,Vaccines cause autism,FALSE,Thoroughly debunked
+592,Scientific,Medium,Organic food is more nutritious,FALSE,Nutritional value similar
+593,Scientific,Medium,GMOs are dangerous,FALSE,Scientific consensus: safe
+594,Scientific,Medium,MSG is harmful,FALSE,No scientific evidence
+595,Scientific,Medium,Detox diets cleanse toxins,FALSE,Liver and kidneys do this
+596,Scientific,Medium,Alkaline water is healthier,FALSE,Body regulates pH
+597,Scientific,Medium,Antioxidants prevent cancer,FALSE,Oversimplified claim
+598,Scientific,Medium,Vitamin C prevents colds,FALSE,May reduce duration slightly
+599,Scientific,Medium,Antibiotics work on viruses,FALSE,Only work on bacteria
+600,Myths,Medium,You can see the Great Wall from space,FALSE,Too narrow
+601,Myths,Medium,Different tongue parts taste different flavors,FALSE,Debunked taste map
+602,Myths,Medium,Goldfish have 3-second memory,FALSE,Can remember for months
+603,Myths,Medium,Bulls are enraged by red color,FALSE,Colorblind to red
+604,Myths,Medium,Bats are blind,FALSE,They can see
+605,Myths,Medium,Ostriches bury heads in sand,FALSE,They dig nests
+606,Myths,Medium,Lemmings commit mass suicide,FALSE,Disney faked it
+607,Myths,Medium,Chameleons change color to match surroundings,FALSE,Change for temp/mood
+608,Myths,Medium,Touching baby birds makes parents abandon them,FALSE,Birds have poor smell
+609,Myths,Medium,Daddy longlegs are most venomous spiders,FALSE,Not even spiders
+610,Myths,Medium,Bumblebees shouldn't be able to fly,FALSE,Outdated aerodynamics
+611,Myths,Medium,Glass is a slow-moving liquid,FALSE,Amorphous solid
+612,Historical,Medium,Medieval people thought Earth was flat,FALSE,Educated knew round
+613,Historical,Medium,Columbus proved Earth was round,FALSE,Already known
+614,Scientific,Medium,Humans evolved from monkeys,FALSE,Common ancestor
+615,Scientific,Medium,Neanderthals were primitive,FALSE,Had complex culture
+616,Scientific,Medium,Dinosaurs and humans coexisted,FALSE,65 million years apart
+617,Scientific,Medium,T-Rex arms were useless,FALSE,Had functional purpose
+618,Scientific,Medium,All dinosaurs were reptiles,FALSE,Birds are dinosaurs
+619,Scientific,Medium,Pterodactyls were dinosaurs,FALSE,"Flying reptiles, not dinosaurs"
+620,Scientific,Medium,Dinosaurs were cold-blooded,FALSE,Evidence suggests warm-blooded
+621,Scientific,Medium,Asteroid killed all dinosaurs instantly,FALSE,Took thousands of years
+622,Scientific,Medium,Neanderthals couldn't speak,FALSE,Had language capability
+623,Historical,Medium,Cave people lived in caves,FALSE,Mostly lived outside
+624,Historical,Medium,Vikings had horned helmets,FALSE,Romantic myth
+625,Historical,Medium,Medieval armor was too heavy to move,FALSE,Well-balanced design
+626,Historical,Medium,Knights rescued damsels in distress,FALSE,Literary invention
+627,Historical,Medium,Witches were burned in Salem,FALSE,They were hanged
+628,Historical,Medium,Iron maiden was medieval torture device,FALSE,19th century invention
+629,Historical,Medium,Chastity belts were used in Crusades,FALSE,Victorian myth
+630,Historical,Medium,Napoleon was very short,FALSE,Average height for time
+631,Historical,Medium,George Washington had wooden teeth,FALSE,"Ivory, bone, lead"
+632,Historical,Medium,Benjamin Franklin discovered electricity,FALSE,"Studied it, didn't discover"
+633,Historical,Medium,Einstein failed math,FALSE,Excelled at math
+634,Historical,Medium,Nero fiddled while Rome burned,FALSE,Fiddles didn't exist
+635,Historical,Medium,Marie Antoinette said 'Let them eat cake',FALSE,No evidence
+636,Historical,Medium,Mussolini made trains run on time,FALSE,Propaganda myth
+637,Historical,Medium,The pyramids were built by slaves,FALSE,Paid workers
+638,Historical,Medium,Cleopatra was Egyptian ethnically,FALSE,Greek Macedonian
+639,Historical,Medium,Julius Caesar was born by C-section,FALSE,Mother lived after birth
+640,Historical,Medium,Paul Revere shouted 'The British are coming',FALSE,Colonists were British
+641,Historical,Medium,Cowboys wore cowboy hats,FALSE,Bowler hats more common
+642,Historical,Medium,Wild West had frequent shootouts,FALSE,Mostly peaceful
+643,Historical,Medium,Pirates made people walk the plank,FALSE,Rare or fictional
+644,Historical,Medium,Pirates buried treasure,FALSE,Usually spent it
+645,Historical,Medium,Vikings discovered America first,TRUE,Before Columbus
+646,Historical,Medium,Leif Erikson reached North America,TRUE,Around 1000 AD
+647,Historical,Medium,"The Pinta, Nina, and Santa Maria were large ships",FALSE,Relatively small
+648,Historical,Medium,Pocahontas saved John Smith,FALSE,Likely fabricated
+649,Historical,Medium,Pocahontas married John Smith,FALSE,Married John Rolfe
+650,Historical,Medium,Thanksgiving was always in November,FALSE,Date changed over time
+651,Historical,Medium,Pilgrims wore black and white,FALSE,Wore colorful clothes
+652,Historical,Medium,Pilgrims and Native Americans were friends,FALSE,Complex relationship
+653,Historical,Medium,Native Americans didn't use the wheel,FALSE,Used in toys
+654,Historical,Medium,Columbus discovered tobacco,FALSE,Native Americans already used it
+655,Historical,Medium,Tomatoes were thought poisonous in Europe,TRUE,Initially mistrusted
+656,Historical,Medium,Potatoes caused Irish famine,FALSE,Potato blight did
+657,Historical,Medium,Tea caused Boston Tea Party,TRUE,Tax protest
+658,Historical,Medium,Shot heard round the world was literal,FALSE,Metaphorical phrase
+659,Historical,Medium,Declaration signed on July 4th,FALSE,"Adopted July 4, signed August 2"
+660,Historical,Medium,Liberty Bell cracked on July 4th,FALSE,Cracked later
+661,Historical,Medium,Betsy Ross designed the flag,FALSE,Likely apocryphal
+662,Historical,Medium,Star Spangled Banner written during War of 1812,TRUE,Fort McHenry
+663,Historical,Medium,White House was always white,FALSE,Painted white after burning
+664,Historical,Medium,Lincoln wrote Gettysburg Address on envelope,FALSE,Prepared in advance
+665,Historical,Medium,Lincoln freed all slaves with Emancipation,FALSE,Only Confederate states
+666,Historical,Medium,Civil War was only about slavery,FALSE,Complex causes
+667,Historical,Medium,Grant was a drunk,FALSE,Exaggerated by opponents
+668,Historical,Medium,Lee owned slaves reluctantly,FALSE,He defended slavery
+669,Historical,Medium,Reconstruction succeeded,FALSE,Ultimately failed
+670,Historical,Medium,Jim Crow laws were unofficial,FALSE,State-enforced segregation
+671,Logic_Reasoning,Hard,"If all cats are mammals, and all mammals breathe, then all cats breathe",TRUE,Valid syllogism
+672,Logic_Reasoning,Hard,"Some doctors are rich, some rich are unhappy, so some doctors are unhappy",FALSE,Invalid syllogism
+673,Logic_Reasoning,Hard,You're either with us or against us,FALSE,False dichotomy
+674,Logic_Reasoning,Hard,My father has two sons and I have two brothers,FALSE,You are one of two sons
+675,Logic_Reasoning,Hard,"My sister has three brothers, I have two brothers",FALSE,You are one of three
+676,Logic_Reasoning,Hard,If A=B and B=C then A=C,TRUE,Transitive property
+677,Logic_Reasoning,Hard,"Successful people wake early, I wake early, so I'll succeed",FALSE,Affirming consequent
+678,Logic_Reasoning,Hard,"All ravens are black, this is black, so it's a raven",FALSE,Inverse error
+679,Logic_Reasoning,Hard,"Can't prove aliens don't exist, so they must exist",FALSE,Appeal to ignorance
+680,Logic_Reasoning,Hard,"Everyone I know likes pizza, so everyone likes pizza",FALSE,Hasty generalization
+681,Logic_Reasoning,Hard,More firefighters at fires cause more damage,FALSE,Correlation not causation
+682,Logic_Reasoning,Hard,"We've always done it this way, so it's right",FALSE,Appeal to tradition
+683,Logic_Reasoning,Hard,"This worked for me, so it works for everyone",FALSE,Anecdotal evidence
+684,Logic_Reasoning,Hard,"If we allow X, then Y will happen",FALSE,Slippery slope
+685,Logic_Reasoning,Hard,"No one proved it false, so it's true",FALSE,Burden of proof
+686,Logic_Reasoning,Hard,If A then B. B happened. Therefore A caused B.,FALSE,Post hoc fallacy
+687,Logic_Reasoning,Hard,Either increase taxes or cut services,FALSE,False dilemma
+688,Logic_Reasoning,Hard,"Most people believe X, so X is true",FALSE,Appeal to popularity
+689,Logic_Reasoning,Hard,"Expert says X, so X must be true",FALSE,Appeal to authority
+690,Logic_Reasoning,Hard,"X happened after Y, so Y caused X",FALSE,Post hoc ergo propter hoc
+691,Logic_Reasoning,Hard,"If it rains, ground is wet. Ground is wet, so it rained.",FALSE,Affirming consequent
+692,Logic_Reasoning,Hard,All dogs bark. Fido barks. So Fido is a dog.,FALSE,Affirming consequent
+693,Logic_Reasoning,Hard,"If you study, you pass. You passed. So you studied.",FALSE,Affirming consequent
+694,Logic_Reasoning,Hard,No cats are dogs. Some pets are cats. So some pets aren't dogs.,TRUE,Valid syllogism
+695,Logic_Reasoning,Hard,All squares are rectangles. This is a square. So it's a rectangle.,TRUE,Valid deduction
+696,Logic_Reasoning,Hard,"If today is Monday, tomorrow is Tuesday. Today is Monday.",TRUE,Modus ponens
+697,Logic_Reasoning,Hard,"If raining, I bring umbrella. I brought umbrella. So it's raining.",FALSE,Affirming consequent
+698,Logic_Reasoning,Hard,All birds have wings. Penguins are birds. So penguins have wings.,TRUE,Valid syllogism
+699,Logic_Reasoning,Hard,Some politicians lie. John is a politician. So John lies.,FALSE,Hasty generalization
+700,Logic_Reasoning,Hard,All mammals have fur. Whales are mammals. So whales have fur.,FALSE,False premise
+701,Logic_Reasoning,Hard,A is bigger than B. B is bigger than C. So A is bigger than C.,TRUE,Transitive property
+702,Logic_Reasoning,Hard,5 is more than 3. 3 is more than 1. So 5 is more than 1.,TRUE,Transitive property
+703,Logic_Reasoning,Hard,X is north of Y. Y is north of Z. So X is north of Z.,TRUE,Transitive relation
+704,Logic_Reasoning,Hard,Mary is taller than Sue. Sue is taller than Ann. So Mary is tallest.,TRUE,Transitive relation
+705,Logic_Reasoning,Hard,"If no food, we die. We didn't die. So we had food.",TRUE,Modus tollens
+706,Logic_Reasoning,Hard,"If it's a dog, it barks. This doesn't bark. So it's not a dog.",TRUE,Modus tollens
+707,Logic_Reasoning,Hard,All humans are mortal. Socrates is human. So Socrates is mortal.,TRUE,Classic valid syllogism
+708,Logic_Reasoning,Hard,Nothing is better than eternal happiness. A sandwich is better than nothing. So a sandwich is better than eternal happiness.,FALSE,Equivocation fallacy
+709,Logic_Reasoning,Hard,The sign says 'Fine for parking'. So it's fine to park here.,FALSE,Equivocation on 'fine'
+710,Ambiguous,Hard,I saw a man on a hill with a telescope,UNVERIFIED,Multiple interpretations
+711,Ambiguous,Hard,Visiting relatives can be annoying,UNVERIFIED,Syntactic ambiguity
+712,Ambiguous,Hard,Time flies like an arrow,UNVERIFIED,Metaphorical language
+713,Ambiguous,Hard,I shot an elephant in my pajamas,UNVERIFIED,Groucho Marx ambiguity
+714,Ambiguous,Hard,The chicken is ready to eat,UNVERIFIED,Who's eating?
+715,Controversial,Hard,"If God exists, who created God?",UNVERIFIED,Theological question
+716,Controversial,Hard,Is free will real or an illusion?,UNVERIFIED,Philosophical debate
+717,Controversial,Hard,Can machines be conscious?,UNVERIFIED,AI consciousness
+718,Controversial,Hard,Is abortion morally wrong?,UNVERIFIED,Ethical question
+719,Controversial,Hard,Should drugs be legalized?,UNVERIFIED,Policy debate
+720,Controversial,Hard,Is death penalty justified?,UNVERIFIED,Ethical question
+721,Controversial,Hard,Does life have inherent meaning?,UNVERIFIED,Existential question
+722,Controversial,Hard,Is capitalism better than socialism?,UNVERIFIED,Economic systems
+723,Controversial,Hard,Should we colonize Mars?,UNVERIFIED,Space exploration ethics
+724,Controversial,Hard,Is AI dangerous to humanity?,UNVERIFIED,Technology risk
+725,Controversial,Hard,Should we edit human genes?,UNVERIFIED,Bioethics
+726,Controversial,Hard,Do animals have rights?,UNVERIFIED,Animal ethics
+727,Controversial,Hard,Is eating meat ethical?,UNVERIFIED,Dietary ethics
+728,Controversial,Hard,Should we have borders?,UNVERIFIED,Immigration policy
+729,Controversial,Hard,Is taxation theft?,UNVERIFIED,Political philosophy
+730,Controversial,Hard,Should healthcare be free?,UNVERIFIED,Healthcare policy
+731,Controversial,Hard,Is privacy more important than security?,UNVERIFIED,Rights balance
+732,Controversial,Hard,Should we ban nuclear weapons?,UNVERIFIED,Arms control
+733,Controversial,Hard,Is democracy the best government?,UNVERIFIED,Political systems
+734,Controversial,Hard,Should we terraform other planets?,UNVERIFIED,Planetary ethics
+735,Scientific,Medium,Is climate change reversible?,UNVERIFIED,Scientific uncertainty
+736,Controversial,Hard,Will AI replace most jobs?,UNVERIFIED,Future prediction
+737,Scientific,Medium,Can we achieve immortality?,UNVERIFIED,Biological limits
+738,Scientific,Medium,Is faster-than-light travel possible?,UNVERIFIED,Physics limits
+739,Scientific,Medium,Do parallel universes exist?,UNVERIFIED,Cosmological theory
+740,Scientific,Medium,Is time travel possible?,UNVERIFIED,Theoretical physics
+741,Scientific,Medium,Did universe have a beginning?,UNVERIFIED,Cosmological question
+742,Scientific,Medium,Is there life on other planets?,UNVERIFIED,Astrobiology
+743,Scientific,Medium,Will humans go extinct?,UNVERIFIED,Future prediction
+744,Scientific,Medium,Can we reverse aging?,UNVERIFIED,Biological research
+745,Controversial,Hard,Is consciousness purely physical?,UNVERIFIED,Mind-body problem
+746,Controversial,Hard,Do we live in a simulation?,UNVERIFIED,Simulation hypothesis
+747,Controversial,Hard,Is reality objective?,UNVERIFIED,Metaphysical question
+748,Controversial,Hard,Does objective morality exist?,UNVERIFIED,Meta-ethics
+749,Controversial,Hard,Is mathematics discovered or invented?,UNVERIFIED,Philosophy of math
+750,Controversial,Hard,Can perfect justice exist?,UNVERIFIED,Justice theory
+751,Controversial,Hard,Is human nature good or evil?,UNVERIFIED,Philosophical anthropology
+752,Controversial,Hard,Do numbers really exist?,UNVERIFIED,Mathematical platonism
+753,Controversial,Hard,Is language necessary for thought?,UNVERIFIED,Cognitive science
+754,Scientific,Medium,Can animals think abstractly?,UNVERIFIED,Comparative psychology
+755,Controversial,Hard,Is beauty objective or subjective?,UNVERIFIED,Aesthetics
+756,Controversial,Hard,Do colors exist without observers?,UNVERIFIED,Philosophy of perception
+757,Controversial,Hard,Is happiness the meaning of life?,UNVERIFIED,Existential question
+758,Controversial,Hard,Can science answer all questions?,UNVERIFIED,Scientism debate
+759,Controversial,Hard,Is progress inevitable?,UNVERIFIED,Philosophy of history
+760,Controversial,Hard,Do abstract objects exist?,UNVERIFIED,Ontological question
+761,Controversial,Hard,Can we know anything for certain?,UNVERIFIED,Epistemology
+762,Controversial,Hard,Is solipsism refutable?,UNVERIFIED,Philosophical skepticism
+763,Controversial,Hard,Does the universe have a purpose?,UNVERIFIED,Teleological question
+764,Controversial,Hard,Is enlightenment achievable?,UNVERIFIED,Spiritual question
+765,Controversial,Hard,Can evil be justified?,UNVERIFIED,Moral philosophy
+766,Controversial,Hard,Is revenge ever justified?,UNVERIFIED,Ethics of retribution
+767,Controversial,Hard,Should we value equality or freedom more?,UNVERIFIED,Political values
+768,Controversial,Hard,Is patriotism a virtue?,UNVERIFIED,Civic ethics
+769,Controversial,Hard,Should art have moral limits?,UNVERIFIED,Aesthetic ethics
+770,Controversial,Hard,Is cultural relativism true?,UNVERIFIED,Anthropological ethics
+771,Controversial,Hard,Can we have knowledge without experience?,UNVERIFIED,Rationalism vs empiricism
+772,Controversial,Hard,Is determinism compatible with free will?,UNVERIFIED,Compatibilism
+773,Controversial,Hard,Should we preserve all languages?,UNVERIFIED,Linguistic diversity
+774,Controversial,Hard,Is tradition valuable in itself?,UNVERIFIED,Cultural philosophy
+775,Controversial,Hard,Can machines be creative?,UNVERIFIED,AI creativity
+776,Controversial,Hard,Is social progress real?,UNVERIFIED,Sociology
+777,Controversial,Hard,Should we edit human embryos?,UNVERIFIED,CRISPR ethics
+778,Controversial,Hard,Is inequality always bad?,UNVERIFIED,Distributive justice
+779,Controversial,Hard,Can war ever be just?,UNVERIFIED,Just war theory
+780,Controversial,Hard,Is censorship ever justified?,UNVERIFIED,Free speech limits
+781,Controversial,Hard,Should we extend human lifespan?,UNVERIFIED,Longevity ethics
+782,Scientific,Medium,DNA is shaped like a double helix,TRUE,Watson-Crick model
+783,Scientific,Medium,Cells are the basic unit of life,TRUE,Cell theory
+784,Scientific,Medium,Mitochondria produce energy,TRUE,Cellular respiration
+785,Scientific,Medium,Chloroplasts perform photosynthesis,TRUE,Plant cells
+786,Scientific,Medium,Bacteria are single-celled organisms,TRUE,Microbiology
+787,Scientific,Medium,Viruses are living organisms,FALSE,Not cellular
+788,Scientific,Medium,Antibiotics kill viruses,FALSE,Only bacteria
+789,Scientific,Medium,Vaccines contain dead viruses,FALSE,"Often weakened, not dead"
+790,Scientific,Medium,Blood type O is universal donor,TRUE,Transfusion compatibility
+791,Scientific,Medium,Humans have 206 bones as adults,TRUE,Skeletal system
+792,Scientific,Medium,The heart has four chambers,TRUE,Cardiac anatomy
+793,Scientific,Medium,The brain uses most of body's energy,FALSE,About 20%
+794,Scientific,Medium,Neurons can regenerate easily,FALSE,Limited regeneration
+795,Scientific,Medium,The liver can regenerate,TRUE,Unique organ property
+796,Scientific,Medium,Kidneys filter blood,TRUE,Renal function
+797,Scientific,Medium,The appendix is completely useless,FALSE,Immune function
+798,Scientific,Medium,Tonsils serve no purpose,FALSE,Part of immune system
+799,Scientific,Medium,Wisdom teeth are vestigial,TRUE,Evolutionary remnant
+800,Scientific,Medium,Fingerprints are unique,TRUE,Individual identification
+801,Scientific,Medium,Identical twins have same DNA,TRUE,Genetic identity
+802,Scientific,Medium,Blood is red because of iron,TRUE,Hemoglobin
+803,Scientific,Medium,Veins carry blue blood,FALSE,Blood is always red
+804,Scientific,Medium,The tongue map is accurate,FALSE,Taste buds everywhere
+805,Scientific,Medium,Humans have only five senses,FALSE,Many more senses
+806,Scientific,Medium,The skin is the largest organ,TRUE,Integumentary system
+807,Scientific,Medium,Hair and nails are alive,FALSE,Dead cells
+808,Scientific,Medium,Goosebumps are vestigial,TRUE,From fur-raising ancestors
+809,Scientific,Medium,Hiccups serve no purpose,TRUE,Vestigial reflex
+810,Scientific,Medium,Yawning is contagious,TRUE,Empathetic response
+811,Scientific,Medium,Stretching prevents injuries,FALSE,Warming up does
+812,Scientific,Medium,Muscle turns to fat if you stop exercising,FALSE,Different tissue types
+813,Scientific,Medium,Lactic acid causes muscle soreness,FALSE,Micro-tears cause soreness
+814,Scientific,Medium,"No pain, no gain is true",FALSE,Pain signals injury
+815,Scientific,Medium,Spot reduction of fat is possible,FALSE,Can't target fat loss
+816,Scientific,Medium,Metabolism slows drastically with age,FALSE,Stays relatively stable
+817,Myths,Medium,Eating late causes weight gain,FALSE,Total calories matter
+818,Myths,Medium,Breakfast is the most important meal,FALSE,Personal preference
+819,Scientific,Medium,Eating eggs raises cholesterol,FALSE,Dietary cholesterol doesn't
+820,Scientific,Medium,Fat makes you fat,FALSE,Calories matter
+821,Scientific,Medium,Carbs make you fat,FALSE,Excess calories do
+822,Scientific,Medium,Protein builds muscle,TRUE,Muscle synthesis
+823,Scientific,Medium,Gluten is bad for everyone,FALSE,Only for celiac disease
+824,Myths,Medium,Dairy causes mucus,FALSE,No scientific evidence
+825,Scientific,Medium,Sugar causes diabetes,FALSE,Oversimplification
+826,Myths,Medium,Coffee stunts growth,FALSE,No evidence
+827,Scientific,Medium,Drinking water flushes toxins,FALSE,Kidneys do this normally
+828,Scientific,Medium,Activated charcoal detoxifies,FALSE,Not effective orally
+829,Scientific,Medium,Cleanse diets work,FALSE,No scientific support
+830,Scientific,Medium,Superfoods exist,FALSE,Marketing term
+831,Scientific,Medium,Alkaline diet changes body pH,FALSE,Body regulates pH
+832,Scientific,Medium,Coconut oil is healthy,FALSE,High saturated fat
+833,Scientific,Medium,Apple cider vinegar aids weight loss,FALSE,No strong evidence
+834,Scientific,Medium,Green tea boosts metabolism,FALSE,Minimal effect
+835,Scientific,Medium,Probiotics cure gut problems,FALSE,Limited evidence
+836,Scientific,Medium,Multivitamins are necessary,FALSE,Food provides nutrients
+837,Scientific,Medium,Creatine is a steroid,FALSE,Natural compound
+838,Scientific,Medium,Protein powder is unhealthy,FALSE,Just dried protein
+839,Scientific,Medium,Soy feminizes men,FALSE,Phytoestrogens differ
+840,Scientific,Medium,MSG is neurotoxic,FALSE,Safe in normal amounts
+841,Scientific,Medium,Artificial sweeteners cause cancer,FALSE,No strong evidence
+842,Scientific,Medium,Microwaves destroy nutrients,FALSE,All cooking affects nutrients
+843,Scientific,Medium,Raw food is more nutritious,FALSE,Cooking increases availability
+844,Scientific,Medium,Freezing destroys nutrients,FALSE,Preserves well
+845,Scientific,Medium,Fresh is always better than frozen,FALSE,Frozen can be fresher
+846,Scientific,Medium,Organic food is pesticide-free,FALSE,Uses organic pesticides
+847,Scientific,Medium,GMOs are unnatural,FALSE,Selective breeding is also unnatural
+848,Scientific,Medium,Hormones in milk are dangerous,FALSE,Digested in stomach
+849,Scientific,Medium,Searing meat seals in juices,FALSE,Maillard reaction
+850,Scientific,Medium,Alcohol kills brain cells,FALSE,Damages connections
+851,Scientific,Medium,Weed is harmless,FALSE,Has risks
+852,Scientific,Medium,Nicotine causes cancer,FALSE,Other chemicals in smoke do
+853,Scientific,Medium,Vaping is completely safe,FALSE,Long-term effects unknown
+854,Scientific,Medium,Cannabis is not addictive,FALSE,Can be psychologically addictive
+855,Scientific,Medium,Psychedelics are always dangerous,FALSE,Therapeutic potential
+856,Scientific,Medium,Caffeine is highly addictive,FALSE,Mild dependence
+857,Scientific,Medium,Energy drinks are more caffeinated than coffee,FALSE,Coffee usually higher
+858,Myths,Medium,Red Bull gives you wings,FALSE,Marketing slogan
+859,Scientific,Medium,Sports drinks are necessary for exercise,FALSE,Water sufficient for most
+860,Scientific,Medium,Chocolate is toxic to humans,FALSE,"Toxic to dogs, not humans"
+861,Myths,Medium,Poinsettias are deadly poisonous,FALSE,Mildly irritating
+862,Myths,Medium,Swallowing watermelon seeds grows plants in stomach,FALSE,Children's myth
+863,Scientific,Medium,Double-dipping spreads bacteria,TRUE,Hygiene issue
+864,Scientific,Medium,Five-second rule is valid,FALSE,Bacteria transfer instantly
+865,Scientific,Medium,Washing hands with antibacterial soap is better,FALSE,Regular soap sufficient
+866,Scientific,Medium,Hand sanitizer is better than washing,FALSE,Washing removes more
+867,Myths,Medium,You should feed a cold and starve a fever,FALSE,Eat and hydrate for both
+868,Scientific,Medium,Vitamin C prevents colds,FALSE,May reduce duration slightly
+869,Scientific,Medium,Zinc prevents colds,FALSE,May reduce duration
+870,Scientific,Medium,Chicken soup cures colds,FALSE,Provides comfort only
+871,Myths,Medium,"Feed a fever, starve a cold",FALSE,Opposite of old saying
+872,Scientific,Medium,Green mucus means bacterial infection,FALSE,Color not diagnostic
+873,Myths,Medium,Going outside with wet hair causes colds,FALSE,Viruses cause colds
+874,Myths,Medium,Cold weather causes colds,FALSE,Indoor crowding does
+875,Scientific,Medium,Flu shot gives you the flu,FALSE,Contains inactivated virus
+876,Scientific,Medium,Natural immunity is better than vaccine immunity,FALSE,Vaccines safer
+877,Scientific,Medium,Herd immunity prevents disease spread,TRUE,Public health concept
+878,Scientific,Medium,Masks don't work,FALSE,Reduce transmission
+879,Scientific,Medium,Social distancing prevents disease,TRUE,Reduces contact
+880,Scientific,Medium,Quarantine stops outbreaks,TRUE,Isolation prevents spread
+881,Scientific,Medium,Asymptomatic people can spread disease,TRUE,Pre-symptomatic transmission
+882,Scientific,Medium,COVID vaccine changes DNA,FALSE,mRNA doesn't alter DNA
+883,Scientific,Medium,COVID vaccine was rushed,FALSE,Followed normal safety protocols
+884,Myths,Medium,COVID vaccine contains microchips,FALSE,Conspiracy theory
+885,Myths,Medium,5G causes COVID,FALSE,No biological mechanism
+886,Scientific,Medium,Ivermectin cures COVID,FALSE,No strong evidence
+887,Scientific,Medium,Hydroxychloroquine cures COVID,FALSE,No efficacy shown
+888,Scientific,Medium,Sunlight kills COVID,FALSE,UV damages virus but not treatment
+889,Scientific,Medium,Bleach injection cures COVID,FALSE,Extremely dangerous
+890,Controversial,Hard,COVID came from a lab,UNVERIFIED,Origin disputed
+891,Scientific,Medium,COVID originated in bats,UNVERIFIED,Likely but unconfirmed
+892,Scientific,Medium,Pangolins were intermediate host,UNVERIFIED,Hypothesis
+893,Scientific,Medium,COVID is just the flu,FALSE,"Different virus, higher mortality"
+894,Scientific,Medium,Long COVID is real,TRUE,Documented condition
+895,Scientific,Medium,COVID affects young people minimally,FALSE,Can affect all ages

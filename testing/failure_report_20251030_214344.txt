@@ -1,0 +1,245 @@
+================================================================================
+DETAILED FAILURE REVIEW
+================================================================================
+Generated: 2025-10-30 21:43:44
+
+Total Tests: 150
+Passed: 127 (84.7%)
+Failed: 23 (15.3%)
+
+================================================================================
+ACCURACY BY CATEGORY
+================================================================================
+Historical          :  14/ 20 ( 70.0%) | Failed: 6
+Myths_Misconceptions:  15/ 20 ( 75.0%) | Failed: 5
+Factual_Easy        :  27/ 30 ( 90.0%) | Failed: 3
+Logic_Reasoning     :  17/ 20 ( 85.0%) | Failed: 3
+Scientific          :  28/ 30 ( 93.3%) | Failed: 2
+Ambiguous           :   8/ 10 ( 80.0%) | Failed: 2
+Current_Events      :   9/ 10 ( 90.0%) | Failed: 1
+Controversial       :   9/ 10 ( 90.0%) | Failed: 1
+
+================================================================================
+DETAILED FAILURE ANALYSIS
+================================================================================
+
+
+[1/23] TEST #9 - Factual_Easy (Easy)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Ice melts at room temperature
+Expected: TRUE         | Actual: FALSE        | Confidence: 90.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: VERDICT_MISMATCH
+Reasoning: Observable phenomenon
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[2/23] TEST #23 - Factual_Easy (Easy)
+────────────────────────────────────────────────────────────────────────────────
+Statement: The Amazon is the longest river
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 45.5%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Nile is longest
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[3/23] TEST #29 - Factual_Easy (Easy)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Humans have five senses
+Expected: TRUE         | Actual: UNVERIFIED   | Confidence: 47.3%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Traditional classification
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[4/23] TEST #50 - Scientific (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: You need to drink 8 glasses of water daily
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: No scientific basis for exact amount
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[5/23] TEST #52 - Scientific (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Eating carrots improves night vision
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 46.4%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: WWII propaganda
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[6/23] TEST #69 - Historical (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Cleopatra was Egyptian
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Greek Macedonian descent
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[7/23] TEST #70 - Historical (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: The Middle Ages were a period of no progress
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 47.3%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Many innovations occurred
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[8/23] TEST #71 - Historical (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Nero fiddled while Rome burned
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.9%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Fiddles didn't exist then
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[9/23] TEST #72 - Historical (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Thomas Edison invented the light bulb
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 46.4%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Improved existing design
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[10/23] TEST #78 - Historical (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Mussolini made the trains run on time
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 52.7%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Propaganda myth
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[11/23] TEST #79 - Historical (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: The guillotine was a French invention
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.9%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Existed before French Revolution
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[12/23] TEST #86 - Logic_Reasoning (Hard)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Some doctors are rich. Some rich people are unhappy. Therefore some doctors are unhappy
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Invalid syllogism
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[13/23] TEST #96 - Logic_Reasoning (Hard)
+────────────────────────────────────────────────────────────────────────────────
+Statement: My sister has three brothers. I have two brothers
+Expected: FALSE        | Actual: TRUE         | Confidence: 90.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: LOGIC_REASONING_ERROR
+Reasoning: You are one of her three brothers
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[14/23] TEST #99 - Logic_Reasoning (Hard)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Successful people wake up early. I wake up early so I'll be successful
+Expected: FALSE        | Actual: TRUE         | Confidence: 72.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: LOGIC_REASONING_ERROR
+Reasoning: Correlation assumed as causation
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[15/23] TEST #101 - Myths_Misconceptions (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Eating turkey makes you sleepy due to tryptophan
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 46.4%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Overeating is the real cause
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[16/23] TEST #103 - Myths_Misconceptions (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: You should wait an hour after eating before swimming
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 46.4%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: No medical basis
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[17/23] TEST #107 - Myths_Misconceptions (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Eating at night makes you gain more weight
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Total calories matter not timing
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[18/23] TEST #111 - Myths_Misconceptions (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Chameleons change color to match their surroundings
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Change for temperature or mood
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[19/23] TEST #119 - Myths_Misconceptions (Medium)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Goldfish will grow to match their tank size
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 40.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Stunted growth is unhealthy
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[20/23] TEST #121 - Current_Events (Easy)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Donald Trump won the 2024 US presidential election
+Expected: TRUE         | Actual: FALSE        | Confidence: 95.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: VERDICT_MISMATCH
+Reasoning: November 2024
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[21/23] TEST #139 - Controversial (Hard)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Nuclear energy is safer than fossil fuels
+Expected: UNVERIFIED   | Actual: TRUE         | Confidence: 90.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: VERDICT_MISMATCH
+Reasoning: Depends on metrics used
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[22/23] TEST #144 - Ambiguous (Hard)
+────────────────────────────────────────────────────────────────────────────────
+Statement: Beauty is in the eye of the beholder
+Expected: UNVERIFIED   | Actual: TRUE         | Confidence: 95.0%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: VERDICT_MISMATCH
+Reasoning: Subjective aesthetic judgment
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+[23/23] TEST #148 - Ambiguous (Hard)
+────────────────────────────────────────────────────────────────────────────────
+Statement: You can't teach an old dog new tricks
+Expected: FALSE        | Actual: UNVERIFIED   | Confidence: 45.5%
+LLM Score: N/A    | Evidence: N/A    | Raw Score: N/A
+Issue Type: FUSION_INDECISIVE
+Reasoning: Studies show adults can learn
+⚠️  DIAGNOSIS: Missing score data - check API response
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+Failure Distribution:
+  FUSION_INDECISIVE: 17
+  VERDICT_MISMATCH: 4
+  LOGIC_REASONING_ERROR: 2
+
+⚠️  Significant failures detected. Review patterns and consider systemic fixes.
+
+================================================================================
