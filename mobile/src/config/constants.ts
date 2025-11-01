@@ -1,6 +1,6 @@
 // API Configuration
 export const API_URL = __DEV__ 
-  ? 'http://localhost:8000/api/v1'  // Development (your local backend)
+  ? 'http://10.0.0.52:8000/api/v1'   // Development (your local backend)
   : 'https://api.verifai.com/api/v1'; // Production (when you deploy)
 
 // App Configuration
